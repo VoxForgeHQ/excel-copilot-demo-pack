@@ -1,0 +1,9 @@
+# macOS / Editor / Python artifacts
+.DS_Store
+*.swp
+__pycache__/
+*.pyc
+
+# Excel temp files
+~$*
+*.tmp
