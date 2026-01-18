@@ -1,24 +1,38 @@
-Excel Copilot Mastery — Companion Demo Pack
+# Excel Copilot Mastery — Companion Downloads
 
-What this repo is
-This repository contains the companion demo pack for the book "Excel Copilot Mastery": sample workbooks, CSV datasets, ready-to-use templates, prompt cards, and errata. It is intended to help readers reproduce examples, practice techniques, and use the templates in their own Excel + Copilot environment.
+This repository contains companion downloads for the book "Excel Copilot Mastery". It provides the demo workbook, datasets, templates, and prompt cards referenced in the book.
 
-How to download
-- Download as a ZIP: Click the green "Code" button on GitHub and select "Download ZIP".
-- Clone: git clone https://github.com/VoxForgeHQ/excel-copilot-demo-pack.git
-- Individual files: browse the folders and click individual files to download.
+What is in this repo
+- /workbooks/ — Excel workbook(s) used in the book (Excel-Copilot-Demo-Pack.xlsx)
+- /datasets/ — CSV files used in examples and exercises
+- /templates/ — Template files and zips (MVP-30 placeholders)
+- /prompt-cards/ — Prompt card PDFs and quick-reference materials
+- /downloads/ — Web "downloads hub" page for easy access
+- /errata/ — Changelog and known issues
 
-How to use the demo pack
-1. Place demo workbooks in OneDrive or a location synced with Excel if you plan to use Copilot and AutoSave.
-2. Open workbooks in the latest Excel that supports Copilot features; enable AutoSave where required.
-3. Follow the book examples and the prompt cards in /Prompt-Cards/ to reproduce results.
-4. Do not upload or paste any sensitive or private data into shared workbooks or public issues (see SECURITY.md).
+How to download files
+1. Visit https://voxforgehq.github.io/ (or the repo's Downloads hub: /downloads/)
+2. Click the item you want (each links to a file path such as `/workbooks/Excel-Copilot-Demo-Pack.xlsx` or `/datasets/Finance_Data.csv`).
+3. You can also clone or download the repository and open files locally.
 
-Update policy
-- Major updates and fixes will be recorded in /Errata/changelog.md.
-- Minor updates may add example datasets or template improvements; check the repository for commits.
-- If you find issues, please report them by opening an issue on the GitHub repository (link on the repo page).
+How to report issues
+- For general issues or content questions: open a GitHub issue in this repository.
+- For urgent security or sensitive disclosures: see SECURITY.md.
 
-Contact and contributions
-- Contributions are welcome. Open issues or submit pull requests with clear change descriptions.
-- See LICENSE for licensing details.
+Where errata is
+- The /errata/ folder contains:
+  - changelog.md — formal change and release notes
+  - known-issues.md — common problems and fixes
+
+Versioning policy
+- v1.0 — March 2026 (initial release of companion downloads)
+- v1.1 — minor updates, dataset corrections, documentation improvements
+- v2.0 — larger feature or content updates
+We use semantic-like incremental versioning for companion content; the changelog documents each published version.
+
+License and usage
+- See LICENSE (All Rights Reserved) — personal use is permitted for readers of "Excel Copilot Mastery". Redistribution is restricted.
+
+Contact
+- For non-sensitive questions, open an issue.
+- For security disclosures, follow SECURITY.md.
