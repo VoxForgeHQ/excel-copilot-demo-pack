@@ -1,0 +1,41 @@
+Date,Category,Description,Amount,Account,Status
+2025-01-05,Revenue,Product Sales,15000.00,Operating Income,Completed
+2025-01-06,Expense,Office Supplies,450.75,General Admin,Completed
+2025-01-08,Revenue,Consulting Services,8500.00,Operating Income,Completed
+2025-01-10,Expense,Software Licenses,2400.00,IT Infrastructure,Completed
+2025-01-12,Revenue,Product Sales,12300.00,Operating Income,Completed
+2025-01-15,Expense,Marketing Campaign,3500.00,Marketing Budget,Completed
+2025-01-17,Revenue,Subscription Revenue,6800.00,Recurring Revenue,Completed
+2025-01-18,Expense,Employee Salaries,45000.00,Payroll,Completed
+2025-01-20,Revenue,Product Sales,18700.00,Operating Income,Completed
+2025-01-22,Expense,Travel Expenses,1250.00,General Admin,Completed
+2025-01-24,Revenue,Consulting Services,9200.00,Operating Income,Completed
+2025-01-25,Expense,Office Rent,5000.00,Facilities,Completed
+2025-01-27,Revenue,Product Sales,14500.00,Operating Income,Completed
+2025-01-29,Expense,Utilities,850.00,Facilities,Completed
+2025-01-30,Revenue,Subscription Revenue,7100.00,Recurring Revenue,Completed
+2025-02-01,Revenue,Product Sales,16200.00,Operating Income,Completed
+2025-02-03,Expense,Insurance Premium,2800.00,General Admin,Completed
+2025-02-05,Revenue,Consulting Services,11000.00,Operating Income,Completed
+2025-02-07,Expense,Equipment Purchase,4200.00,Capital Expenditure,Completed
+2025-02-09,Revenue,Product Sales,13800.00,Operating Income,Completed
+2025-02-11,Expense,Professional Services,3200.00,Legal & Compliance,Completed
+2025-02-13,Revenue,Subscription Revenue,7500.00,Recurring Revenue,Completed
+2025-02-15,Expense,Marketing Campaign,4100.00,Marketing Budget,Completed
+2025-02-17,Revenue,Product Sales,19500.00,Operating Income,Completed
+2025-02-18,Expense,Employee Salaries,45000.00,Payroll,Completed
+2025-02-20,Revenue,Consulting Services,10500.00,Operating Income,Completed
+2025-02-22,Expense,Cloud Services,1800.00,IT Infrastructure,Completed
+2025-02-24,Revenue,Product Sales,15700.00,Operating Income,Completed
+2025-02-26,Expense,Office Supplies,380.50,General Admin,Completed
+2025-02-28,Revenue,Subscription Revenue,7200.00,Recurring Revenue,Completed
+2025-03-01,Revenue,Product Sales,17800.00,Operating Income,Pending
+2025-03-03,Expense,Training Programs,2500.00,Human Resources,Pending
+2025-03-05,Revenue,Consulting Services,9800.00,Operating Income,Pending
+2025-03-07,Expense,Software Licenses,2600.00,IT Infrastructure,Pending
+2025-03-09,Revenue,Product Sales,14900.00,Operating Income,Pending
+2025-03-11,Expense,Marketing Campaign,3800.00,Marketing Budget,Pending
+2025-03-13,Revenue,Subscription Revenue,7800.00,Recurring Revenue,Pending
+2025-03-15,Expense,Office Maintenance,950.00,Facilities,Pending
+2025-03-17,Revenue,Product Sales,16500.00,Operating Income,Pending
+2025-03-18,Expense,Employee Salaries,45000.00,Payroll,Pending
