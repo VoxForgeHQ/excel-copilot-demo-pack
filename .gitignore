@@ -1,9 +1,29 @@
-# macOS / Editor / Python artifacts
-.DS_Store
-*.swp
-__pycache__/
-*.pyc
-
-# Excel temp files
+# Office temporary files
 ~$*
 *.tmp
+*.temp
+.*~
+*.bak
+
+# Excel backups and autosave
+*.xlk
+*.xlsb~ 
+*.xlsx~
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Node/npm (if used for site tooling)
+node_modules/
+npm-debug.log
+
+# Logs and environment
+*.log
+.env
