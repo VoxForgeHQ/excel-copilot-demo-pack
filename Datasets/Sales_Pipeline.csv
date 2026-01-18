@@ -1,5 +1,0 @@
-DealID,Client,DealValue,Probability,ExpectedCloseDate
-D001,ABC Corp,50000,0.75,2026-02-20
-D002,XYZ Ltd,30000,0.6,2026-01-30
-D003,Widget Co,20000,0.8,2026-03-15
-D004,Global Ltd,45000,0.9,2026-02-10
