@@ -1,0 +1,7 @@
+Account,Category,Amount,Date
+Operating Cash,Revenue,12500,2026-01-01
+Accounts Receivable,Revenue,4200,2026-01-05
+Office Supplies,Expense,320,2026-01-07
+Salaries,Expense,8400,2026-01-15
+Interest Income,Revenue,150,2026-01-20
+Taxes,Expense,2100,2026-01-31
