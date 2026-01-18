@@ -1,7 +1,7 @@
 MVP-30 Templates for Excel Copilot Mastery
 ==========================================
 
-This archive contains 30 MVP (Minimum Viable Product) templates designed to help you quickly build business solutions with Excel and Copilot.
+This archive contains 5 MVP (Minimum Viable Product) templates designed to help you quickly build business solutions with Excel and Copilot.
 
 Contents:
 ---------
@@ -10,13 +10,6 @@ Contents:
 3. Project Timeline Template
 4. Inventory Management Template
 5. Employee Timesheet Template
-6. Customer Database Template
-7. Invoice Generator Template
-8. Expense Report Template
-9. KPI Dashboard Template
-10. Task Manager Template
-
-... and 20 more templates!
 
 How to Use:
 -----------
