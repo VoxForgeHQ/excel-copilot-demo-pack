@@ -1,0 +1,151 @@
+WeekStartDate,Channel,CampaignName,Spend,Impressions,Clicks,Leads,Opportunities,RevenueAttributed,CAC,ROAS,Notes,DataQualityFlag
+2025-01-06,Affiliate,Brand - Healthcare (Growth),"$11,171.87","672,929","7,770",1,0,"$53,492","$11,171.87",4.79,"Unusually high CAC this week; check targeting, bidding, and landing page.",OK
+2025-01-13,LinkedIn,Content - Healthcare (Growth),"$10,162.83","221,263","2,360",24,6,"$23,169",$423.45,2.28,,OK
+2025-01-20,LinkedIn,Partner - Healthcare (Teams),"$4,794.28","112,251",653,3,1,"$9,399","$1,598.09",1.96,"Unusually high CAC this week; check targeting, bidding, and landing page.",OK
+2025-01-27,LinkedIn,Prospecting - Mid-Market (Platform),"$7,346.74","223,900","1,089",17,6,"$11,703",$432.16,1.59,,OK
+2025-02-17,Google Ads,Demand Gen - Mid-Market (Growth),"$11,796.24","1,103,325","28,465",730,223,"$104,314",$16.16,8.84,,OK
+2025-02-10,SEO,Prospecting - Finance (Core),$854.96,"396,289","15,824",113,49,$315,$7.57,0.37,UTM parameters missing on key links; attribution likely undercounted.,Missing UTMs
+2025-02-17,Meta,Content - Ecommerce (Pro),"$3,641.51","422,093","7,010",0,0,"$23,251",,6.38,No leads recorded; verify form tracking and CRM sync.,OK
+2025-02-24,Affiliate,Launch - Healthcare (Pro),"$3,291.44","222,430","5,742",141,56,"$17,183",$23.34,5.22,,OK
+2025-03-03,Meta,Brand - Enterprise (Growth),"$7,820.93","790,721","12,485",121,54,"$81,022",$64.64,10.36,,OK
+2025-03-17,Meta,Demand Gen - SMB (Pro),"$8,469.83","1,134,315","20,587",416,141,"$84,560",$20.36,9.98,,OK
+2025-03-17,Affiliate,Prospecting - Enterprise (Platform),"$7,398.06","439,603","9,336",148,41,"$54,619",$49.99,7.38,,OK
+2025-03-24,LinkedIn,Demand Gen - Enterprise (Core),"$6,679.43","218,916","1,904",31,13,"$9,853",$215.47,1.48,UTM parameters missing on key links; attribution likely undercounted.,Missing UTMs
+2025-03-31,Meta,Webinar - Healthcare (Core),"$10,981.16","995,536","21,408",376,78,"$32,681",$29.21,2.98,,OK
+2025-04-07,LinkedIn,Retargeting - Enterprise (Teams),"$4,511.30","116,313","1,329",18,7,"$9,292",$250.63,2.06,,OK
+2025-04-28,SEO,Partner - Education (Platform),"$2,329.00","1,112,769","23,960",511,206,"$14,912",$4.56,6.40,,OK
+2025-04-21,Affiliate,Promo - Enterprise (Pro),"$2,359.98","90,172",885,13,5,"$3,034",$181.54,1.29,,OK
+2025-04-28,SEO,Demand Gen - Finance (Core),"$1,970.76","708,846","31,499",206,87,"$13,861",$9.57,7.03,,OK
+2025-05-05,Email,Promo - Ecommerce (Teams),$636.06,"128,553","1,904",26,5,"$8,872",$24.46,13.95,,OK
+2025-05-12,Affiliate,Webinar - Mid-Market (Growth),"$6,522.53","417,763","2,958",78,35,"$20,541",$83.62,3.15,,OK
+2025-06-02,Google Ads,Promo - Education (Core),"$4,016.15","284,353","11,832",197,47,"$23,627",$20.39,5.88,,OK
+2025-05-26,SEO,Retargeting - Enterprise (Platform),"$1,148.33","736,732","17,942",300,98,"$15,475",$3.83,13.48,,OK
+2025-06-02,SEO,Retargeting - Finance (Teams),"$2,029.26","1,422,329","47,074",913,204,"$275,785",$2.22,135.90,Attribution anomaly detected (duplicate conversions / mis-tagged source). Review tracking.,Suspect attribution
+2025-06-09,Affiliate,Brand - SMB (Core),"$6,498.05","276,118","3,997",38,9,"$51,853",$171.00,7.98,,OK
+2025-06-16,Meta,Prospecting - Enterprise (Platform),"$9,402.98","1,094,335","20,771",164,67,"$42,927",$57.34,4.57,,OK
+2025-06-30,Google Ads,Content - Ecommerce (Growth),"$6,715.25","547,558","16,671",258,85,"$88,304",$26.03,13.15,,OK
+2025-06-30,Email,Retargeting - Education (Teams),"$1,258.52","213,207","8,531",513,226,"$16,992",$2.45,13.50,,OK
+2025-07-07,Email,Demand Gen - Ecommerce (Growth),"$1,746.36","543,620","16,249",424,184,"$8,721",$4.12,4.99,,OK
+2025-07-14,Google Ads,Content - Enterprise (Core),"$14,920.32","755,683","23,470","1,023",386,"$5,348",$14.58,0.36,UTM parameters missing on key links; attribution likely undercounted.,Missing UTMs
+2025-07-21,Google Ads,Content - B2B SaaS (Platform),"$12,105.80","907,505","21,844",423,139,"$61,519",$28.62,5.08,,OK
+2025-08-11,Meta,Brand - Ecommerce (Teams),"$7,287.61","980,849","7,538",55,17,"$3,285",$132.50,0.45,UTM parameters missing on key links; attribution likely undercounted.,Missing UTMs
+2025-08-04,SEO,Demand Gen - Education (Platform),"$1,610.58","641,591","30,491",209,61,"$21,414",$7.71,13.30,,OK
+2025-08-11,LinkedIn,Retargeting - SMB (Core),"$16,831.93","340,990","2,602",49,19,"$79,391",$343.51,4.72,,OK
+2025-08-18,Meta,Demand Gen - Finance (Growth),"$5,314.85","461,968","8,195",125,26,"$18,718",$42.52,3.52,,OK
+2025-08-25,Meta,Newsletter - B2B SaaS (Teams),"$4,004.64","374,791","6,965",62,18,"$34,627",$64.59,8.65,,OK
+2025-09-15,LinkedIn,Content - B2B SaaS (Platform),"$11,328.31","413,831","4,512",117,46,"$39,838",$96.82,3.52,,OK
+2025-09-08,Email,Prospecting - Enterprise (Platform),"$1,375.65","295,805","14,097",243,109,"$7,649",$5.66,5.56,,OK
+2025-09-15,Google Ads,Webinar - Mid-Market (Platform),"$15,263.23","1,621,205","36,559",656,159,"$118,375",$23.27,7.76,,OK
+2025-09-22,Email,Content - Finance (Core),"$1,714.41","848,462","13,740",822,253,"$8,281",$2.09,4.83,,OK
+2025-09-29,SEO,Partner - SMB (Pro),"$1,918.24","1,120,957","23,017",444,104,"$11,968",$4.32,6.24,,OK
+2025-10-06,Affiliate,Partner - Healthcare (Pro),"$3,954.67","226,865","4,228",64,17,"$10,932",$61.79,2.76,,OK
+2025-10-13,LinkedIn,Webinar - SMB (Growth),"$9,060.34","300,631","3,297",52,17,"$52,723",$174.24,5.82,,OK
+2025-10-20,Meta,Retargeting - Enterprise (Growth),"$13,046.55","1,557,451","15,867",2,1,"$20,869","$6,523.28",1.60,"Unusually high CAC this week; check targeting, bidding, and landing page.",OK
+2025-10-27,Email,Newsletter - Finance (Growth),"$1,367.34","375,120","19,039",775,204,"$8,285",$1.76,6.06,,OK
+2025-11-03,Google Ads,Promo - Finance (Core),"$11,419.55","588,374","33,088",448,128,"$106,815",$25.49,9.35,,OK
+2025-11-17,Meta,Promo - SMB (Growth),"$4,499.10","504,607","10,301",64,23,"$7,818",$70.30,1.74,,OK
+2025-11-17,Email,Newsletter - SMB (Teams),$311.46,"60,590","2,395",52,15,$907,$5.99,2.91,UTM parameters missing on key links; attribution likely undercounted.,Missing UTMs
+2025-11-24,Email,Prospecting - SMB (Teams),"$1,996.66","368,263","7,731",0,0,"$8,069",,4.04,No leads recorded; verify form tracking and CRM sync.,OK
+2025-12-01,Affiliate,Content - Healthcare (Core),"$2,656.36","158,059","1,814",39,13,"$22,051",$68.11,8.30,,OK
+2025-12-08,Meta,Partner - Enterprise (Core),"$7,540.24","823,604","13,353",135,34,"$26,579",$55.85,3.52,,OK
+2025-12-22,Google Ads,Webinar - Enterprise (Platform),"$8,582.22","466,010","23,026",671,141,"$67,176",$12.79,7.83,,OK
+2025-12-22,Email,Retargeting - B2B SaaS (Platform),"$1,895.92","346,818","6,631",324,100,"$14,904",$5.85,7.86,,OK
+2025-12-29,Affiliate,Promo - B2B SaaS (Core),$0.00,"91,766","1,106",20,9,"$1,060",$0.00,,No paid spend (organic/owned activity).,OK
+2025-01-06,Email,Brand - Finance (Growth),"$1,540.83","246,481","10,096",138,29,"$8,025",$11.17,5.21,,OK
+2025-01-13,SEO,Demand Gen - Ecommerce (Platform),"$2,083.64","898,797","33,526",220,55,"$2,505",$9.47,1.20,UTM parameters missing on key links; attribution likely undercounted.,Missing UTMs
+2025-02-03,Email,Prospecting - Ecommerce (Platform),$0.00,"59,166","1,092",23,7,"$11,866",$0.00,,No paid spend (organic/owned activity).,OK
+2025-01-27,SEO,Retargeting - Healthcare (Teams),$736.27,"307,268","8,657",151,60,"$5,087",$4.88,6.91,,OK
+2025-02-03,SEO,Demand Gen - Finance (Teams),"$2,126.83","593,335","10,788",58,18,"$3,136",$36.67,1.47,,OK
+2025-02-10,LinkedIn,Webinar - Education (Growth),"$5,375.74","112,338","1,436",0,0,"$5,950",,1.11,No leads recorded; verify form tracking and CRM sync.,OK
+2025-02-17,Affiliate,Prospecting - Healthcare (Platform),"$7,656.40","450,792","7,117",156,44,"$49,251",$49.08,6.43,,OK
+2025-02-24,Email,Promo - SMB (Growth),"$1,094.01","467,162","8,508",332,141,"$6,380",$3.30,5.83,,OK
+2025-03-03,LinkedIn,Webinar - Healthcare (Platform),"$14,680.05","282,731","1,944",41,17,"$41,948",$358.05,2.86,,OK
+2025-03-10,Affiliate,Promo - B2B SaaS (Pro),"$4,723.91","221,213","3,732",55,20,"$6,929",$85.89,1.47,,OK
+2025-03-17,Google Ads,Demand Gen - Finance (Core),"$15,654.89","1,430,229","47,376","1,306",477,"$31,501",$11.99,2.01,,OK
+2025-03-24,LinkedIn,Partner - Education (Growth),"$9,890.64","235,705","3,085",42,15,"$32,765",$235.49,3.31,,OK
+2025-04-14,LinkedIn,Launch - SMB (Platform),"$15,374.28","337,875","1,515",35,8,"$23,057",$439.27,1.50,,OK
+2025-04-07,SEO,Brand - SMB (Core),"$2,141.70","952,363","17,973",0,0,"$9,087",,4.24,No leads recorded; verify form tracking and CRM sync.,OK
+2025-04-14,Affiliate,Retargeting - B2B SaaS (Growth),$897.39,"49,011",482,10,3,"$1,239",$89.74,1.38,UTM parameters missing on key links; attribution likely undercounted.,Missing UTMs
+2025-04-21,LinkedIn,Prospecting - Healthcare (Teams),"$12,396.76","262,174","1,064",28,5,"$43,916",$442.74,3.54,,OK
+2025-04-28,Meta,Content - Finance (Pro),"$13,251.66","937,139","10,782",209,47,"$57,667",$63.41,4.35,,OK
+2025-05-12,LinkedIn,Partner - Ecommerce (Platform),"$4,696.02","155,610","1,988",19,5,"$8,008",$247.16,1.71,,OK
+2025-05-12,LinkedIn,Retargeting - B2B SaaS (Growth),"$9,028.48","261,217","4,706",45,19,"$77,193",$200.63,8.55,,OK
+2025-05-19,Google Ads,Prospecting - Healthcare (Growth),"$7,670.25","422,980","12,662",328,90,"$28,272",$23.38,3.69,,OK
+2025-05-26,SEO,Content - SMB (Teams),"$2,202.97","1,153,213","37,963",0,0,"$13,391",,6.08,No leads recorded; verify form tracking and CRM sync.,OK
+2025-06-02,Google Ads,Partner - Education (Core),"$6,279.35","589,438","28,385",544,116,"$57,742",$11.54,9.20,,OK
+2025-06-16,LinkedIn,Prospecting - B2B SaaS (Teams),"$9,615.15","336,470","4,405",101,27,"$8,629",$95.20,0.90,UTM parameters missing on key links; attribution likely undercounted.,Missing UTMs
+2025-06-16,Google Ads,Webinar - Ecommerce (Core),"$15,598.89","1,705,255","54,811",1,0,"$70,240","$15,598.89",4.50,"Unusually high CAC this week; check targeting, bidding, and landing page.",OK
+2025-06-23,Email,Retargeting - Mid-Market (Core),"$1,489.87","392,166","12,625",448,85,"$2,713",$3.33,1.82,,OK
+2025-06-30,Google Ads,Content - Mid-Market (Core),"$7,969.30","551,386","27,704",1,0,"$11,581","$7,969.30",1.45,"Unusually high CAC this week; check targeting, bidding, and landing page.",OK
+2025-07-07,Meta,Brand - B2B SaaS (Teams),"$2,545.44","298,582","6,252",2,0,"$4,087","$1,272.72",1.61,"Unusually high CAC this week; check targeting, bidding, and landing page.",OK
+2025-07-21,Google Ads,Demand Gen - Healthcare (Core),"$8,443.48","703,786","31,025","1,037",286,"$14,261",$8.14,1.69,,OK
+2025-07-21,SEO,Prospecting - Enterprise (Platform),"$1,672.79","524,704","28,148",765,261,"$23,070",$2.19,13.79,,OK
+2025-07-28,Email,Launch - B2B SaaS (Pro),"$1,894.10","337,686","7,925",462,199,"$2,677",$4.10,1.41,UTM parameters missing on key links; attribution likely undercounted.,Missing UTMs
+2025-08-04,Email,Launch - Enterprise (Teams),"$1,999.69","360,640","5,119",211,38,"$17,512",$9.48,8.76,,OK
+2025-08-11,SEO,Newsletter - Finance (Core),$825.45,"791,724","41,677",434,134,"$5,558",$1.90,6.73,,OK
+2025-08-18,Meta,Prospecting - B2B SaaS (Platform),"$3,282.56","241,722","2,579",1,0,"$11,199","$3,282.56",3.41,"Unusually high CAC this week; check targeting, bidding, and landing page.",OK
+2025-08-25,LinkedIn,Prospecting - Education (Core),"$8,592.57","195,145","1,213",20,8,"$35,135",$429.63,4.09,,OK
+2025-09-01,LinkedIn,Demand Gen - Finance (Growth),"$10,823.29","313,280","3,167",41,8,"$46,907",$263.98,4.33,,OK
+2025-09-08,Affiliate,Promo - Ecommerce (Teams),"$3,766.02","240,666","2,308",48,18,"$39,527",$78.46,10.50,,OK
+2025-09-15,LinkedIn,Partner - Education (Pro),"$9,439.30","257,683","3,076",52,23,"$21,160",$181.53,2.24,,OK
+2025-09-22,Google Ads,Promo - Enterprise (Pro),"$17,226.72","851,968","40,128",992,194,"$143,177",$17.37,8.31,,OK
+2025-09-29,LinkedIn,Content - Mid-Market (Teams),"$16,238.41","322,668","3,654",37,9,"$94,114",$438.88,5.80,,OK
+2025-10-06,Email,Partner - Healthcare (Pro),"$1,814.36","413,635","16,258",347,125,"$14,710",$5.23,8.11,,OK
+2025-10-13,SEO,Retargeting - Ecommerce (Platform),"$1,899.70","877,530","55,756",540,206,"$322,109",$3.52,169.56,Attribution anomaly detected (duplicate conversions / mis-tagged source). Review tracking.,Suspect attribution
+2025-10-20,SEO,Webinar - B2B SaaS (Pro),"$2,920.51","832,054","49,958",610,144,"$17,889",$4.79,6.13,,OK
+2025-10-27,LinkedIn,Demand Gen - Enterprise (Platform),"$9,229.27","232,754","2,834",25,10,"$29,790",$369.17,3.23,,OK
+2025-11-03,Affiliate,Demand Gen - Education (Growth),"$3,031.13","124,768","1,444",18,5,"$10,410",$168.40,3.43,,OK
+2025-11-10,Google Ads,Content - Finance (Platform),"$13,263.08","727,523","14,689",387,122,"$18,227",$34.27,1.37,,OK
+2025-11-17,Affiliate,Promo - Ecommerce (Growth),"$3,377.41","186,873","2,232",37,12,"$25,642",$91.28,7.59,,OK
+2025-11-24,Google Ads,Promo - B2B SaaS (Pro),"$6,190.05","599,403","25,256",660,173,"$49,858",$9.38,8.05,,OK
+2025-12-01,Affiliate,Retargeting - Finance (Pro),"$1,453.38","58,668","1,024",30,6,"$7,413",$48.45,5.10,,OK
+2025-12-08,Affiliate,Newsletter - Mid-Market (Core),"$2,008.55","144,296","1,230",33,14,"$7,808",$60.87,3.89,,OK
+2025-12-15,SEO,Partner - SMB (Teams),"$1,962.25","1,647,378","37,582",638,269,"$2,695",$3.08,1.37,,OK
+2025-12-22,Meta,Retargeting - Finance (Platform),"$3,294.43","384,956","7,600",77,19,"$599,639",$42.78,182.02,Attribution anomaly detected (duplicate conversions / mis-tagged source). Review tracking.,Suspect attribution
+2025-12-29,Affiliate,Partner - Education (Growth),"$1,037.12","72,331","1,382",18,4,"$4,005",$57.62,3.86,,OK
+2025-01-13,LinkedIn,Demand Gen - Enterprise (Growth),"$14,174.28","430,074","5,125",70,13,"$20,925",$202.49,1.48,UTM parameters missing on key links; attribution likely undercounted.,Missing UTMs
+2025-01-13,Google Ads,Retargeting - Enterprise (Teams),"$4,158.38","286,505","12,227",159,37,"$23,856",$26.15,5.74,,OK
+2025-01-20,Google Ads,Partner - Enterprise (Pro),"$5,665.47","309,816","12,582",358,80,"$14,392",$15.83,2.54,,OK
+2025-01-27,SEO,Prospecting - Education (Growth),"$1,194.43","348,798","6,365",81,18,"$10,979",$14.75,9.19,,OK
+2025-02-03,Meta,Retargeting - Enterprise (Platform),"$4,333.42","457,229","7,681",89,36,"$35,207",$48.69,8.12,,OK
+2025-02-10,LinkedIn,Launch - Mid-Market (Growth),"$14,349.52","302,438","1,641",41,12,"$88,790",$349.99,6.19,,OK
+2025-02-17,LinkedIn,Content - Healthcare (Growth),"$12,811.90","320,382","1,593",29,6,"$22,567",$441.79,1.76,,OK
+2025-02-24,Email,Prospecting - Healthcare (Growth),$444.49,"106,686","1,495",84,22,"$4,957",$5.29,11.15,,OK
+2025-03-03,SEO,Prospecting - Finance (Platform),$619.25,"196,220","7,652",173,76,"$8,110",$3.58,13.10,,OK
+2025-03-10,LinkedIn,Partner - Education (Teams),"$4,479.43","121,845","1,612",14,3,"$35,122",$319.96,7.84,,OK
+2025-03-17,Meta,Launch - Mid-Market (Teams),"$8,864.86","780,105","6,545",66,29,"$27,261",$134.32,3.08,,OK
+2025-03-24,Affiliate,Content - Enterprise (Pro),"$7,011.60","484,187","7,175",81,32,"$37,749",$86.56,5.38,,OK
+2025-03-31,Affiliate,Demand Gen - Mid-Market (Pro),"$2,786.53","105,624","1,093",10,3,"$10,502",$278.65,3.77,,OK
+2025-04-07,Google Ads,Promo - Enterprise (Teams),"$2,491.09","153,926","7,101",99,25,"$28,242",$25.16,11.34,,OK
+2025-04-14,LinkedIn,Launch - Education (Core),"$5,216.38","135,391","1,070",19,8,"$750,734",$274.55,143.92,Attribution anomaly detected (duplicate conversions / mis-tagged source). Review tracking.,Suspect attribution
+2025-04-28,Email,Promo - Finance (Platform),"$1,458.85","459,252","12,024",2,1,"$5,390",$729.43,3.69,"Unusually high CAC this week; check targeting, bidding, and landing page.",OK
+2025-04-28,Google Ads,Promo - B2B SaaS (Pro),"$10,881.35","552,108","23,560",644,226,"$46,862",$16.90,4.31,,OK
+2025-05-05,Affiliate,Promo - Enterprise (Pro),"$1,703.04","77,412",554,9,4,"$15,266",$189.23,8.96,,OK
+2025-05-12,Email,Launch - B2B SaaS (Platform),$887.40,"203,343","6,215",154,51,"$11,169",$5.76,12.59,,OK
+2025-05-19,Affiliate,Promo - Ecommerce (Core),"$3,730.52","265,848","5,448",56,14,"$20,654",$66.62,5.54,,OK
+2025-06-09,SEO,Brand - Education (Platform),"$1,845.31","978,732","32,507",824,315,"$18,581",$2.24,10.07,,OK
+2025-06-02,Email,Content - SMB (Teams),"$3,008.30","558,780","20,799",2,0,"$4,168","$1,504.15",1.39,"Unusually high CAC this week; check targeting, bidding, and landing page.",OK
+2025-06-09,LinkedIn,Newsletter - Healthcare (Pro),"$9,569.27","299,720","1,870",46,18,"$57,921",$208.03,6.05,,OK
+2025-06-16,LinkedIn,Partner - Finance (Platform),"$3,033.70","113,208","1,210",21,9,"$24,248",$144.46,7.99,,OK
+2025-06-23,Meta,Launch - B2B SaaS (Growth),"$3,162.01","347,888","2,663",15,5,"$14,712",$210.80,4.65,,OK
+2025-07-07,SEO,Prospecting - Finance (Platform),$0.00,"91,992","3,017",55,17,"$4,735",$0.00,,No paid spend (organic/owned activity).,OK
+2025-07-07,Google Ads,Prospecting - Enterprise (Pro),"$11,209.17","720,995","27,120",413,103,"$25,061",$27.14,2.24,,OK
+2025-07-14,Google Ads,Webinar - SMB (Pro),"$10,355.05","698,895","15,201",312,98,"$74,210",$33.19,7.17,,OK
+2025-07-21,Google Ads,Prospecting - SMB (Platform),"$9,892.25","723,758","18,414",366,140,"$61,557",$27.03,6.22,,OK
+2025-07-28,Google Ads,Launch - Enterprise (Pro),"$5,831.78","515,480","14,438",404,166,"$41,170",$14.44,7.06,,OK
+2025-08-04,LinkedIn,Retargeting - Healthcare (Core),"$11,039.89","331,430","1,764",25,7,"$34,223",$441.60,3.10,,OK
+2025-08-11,Email,Brand - Ecommerce (Pro),"$1,541.53","451,167","20,290","1,055",240,"$5,835",$1.46,3.79,,OK
+2025-08-18,Affiliate,Newsletter - Healthcare (Growth),"$2,924.81","137,678","1,250",34,14,"$324,714",$86.02,111.02,Attribution anomaly detected (duplicate conversions / mis-tagged source). Review tracking.,Suspect attribution
+2025-08-25,Affiliate,Prospecting - Mid-Market (Pro),"$4,436.78","169,419","3,638",75,32,"$40,236",$59.16,9.07,,OK
+2025-09-01,Email,Demand Gen - Ecommerce (Platform),"$1,448.35","476,864","24,228","1,624",297,"$8,035",$0.89,5.55,,OK
+2025-09-15,SEO,Content - Education (Growth),"$2,009.69","547,007","25,041",205,74,"$2,551",$9.80,1.27,UTM parameters missing on key links; attribution likely undercounted.,Missing UTMs
+2025-09-15,Affiliate,Partner - SMB (Platform),"$3,692.56","172,490","1,714",40,13,"$19,446",$92.31,5.27,,OK
+2025-09-22,SEO,Demand Gen - SMB (Teams),"$1,797.14","938,484","16,098",165,32,"$5,447",$10.89,3.03,,OK
+2025-09-29,Meta,Newsletter - SMB (Pro),"$8,545.86","887,461","13,473",242,46,"$32,525",$35.31,3.81,,OK
+2025-10-06,SEO,Prospecting - Mid-Market (Pro),"$1,580.10","1,018,584","22,245",0,0,"$7,427",,4.70,No leads recorded; verify form tracking and CRM sync.,OK
+2025-10-13,LinkedIn,Partner - SMB (Platform),"$3,638.76","109,535","1,171",13,5,"$10,599",$279.90,2.91,,OK
+2025-10-20,SEO,Prospecting - Education (Pro),$476.49,"292,800","10,585",89,16,"$5,410",$5.35,11.35,,OK
+2025-10-27,Affiliate,Newsletter - SMB (Core),"$8,455.52","551,299","4,438",109,44,"$65,926",$77.57,7.80,,OK
+2025-11-03,Google Ads,Brand - Ecommerce (Teams),"$4,506.23","349,285","17,353",252,68,"$14,394",$17.88,3.19,UTM parameters missing on key links; attribution likely undercounted.,Missing UTMs
+2025-11-10,Google Ads,Retargeting - Healthcare (Teams),"$7,042.34","632,596","30,150",462,181,"$54,819",$15.24,7.78,,OK
+2025-11-24,Meta,Retargeting - Enterprise (Pro),"$6,984.83","522,830","5,629",1,0,"$32,611","$6,984.83",4.67,"Unusually high CAC this week; check targeting, bidding, and landing page.",OK

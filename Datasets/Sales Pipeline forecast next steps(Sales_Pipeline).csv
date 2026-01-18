@@ -1,0 +1,181 @@
+LeadID,Company,Industry,DealStage,DealValue,Probability,Owner,LastContactDate,NextStep,DaysInStage,Notes,ReasonLost,Region,Source
+L-2025-0001,NovaWorks AI,Agency,Discovery,"$20,775",25%,Olivia Davis,2025-02-03,Share questionnaire,11,Needs integration with Salesforce and NetSuite.,,APAC,Outbound
+L-2025-0002,BrightPath Labs,Ecom,Prospecting,"$57,128",23%,Liam Johnson,2025-04-06,Send one-pager,3,Stakeholder change—new VP reviewing vendors.,,EMEA,Referral
+L-2025-0003,Aperture Manufacturing,Agency,Proposal,"$14,089",49%,Ava Chen,2025-02-11,Confirm decision date,34,Trial went well; asked for reference customer call.,,EMEA,Partner
+L-2025-0004,Catalyst Partners,Agency,Prospecting,"$237,792",28%,Noah Patel,2025-09-19,LinkedIn outreach,9,Needs integration with Salesforce and NetSuite.,,NA,Partner
+L-2025-0005,Hooli Manufacturing,SaaS,Negotiation,"$12,779",63%,Lucas Martin,2025-11-16,Security review,19,Competitor also in evaluation; we need stronger ROI case.,,EMEA,Partner
+L-2025-0006,Greenfield Solutions,Other,Proposal,"$78,127",62%,Ethan Brown,2025-04-20,Confirm decision date,32,Champion engaged; needs buy-in from Finance.,,NA,Referral
+L-2025-0007,Elevate AI,Agency,Discovery,"$235,743",42%,Mia Rodriguez,2025-04-28,Share questionnaire,30,Looking to replace legacy tool; timeline depends on budget approval.,,EMEA,Inbound
+L-2025-0008,Aperture Partners,Ecom,Discovery,"$45,695",21%,Liam Johnson,2025-08-20,Confirm requirements,7,Stakeholder change—new VP reviewing vendors.,,APAC,Partner
+L-2025-0009,Aperture Co,Ecom,Proposal,"$228,762",41%,Olivia Davis,2025-02-02,Confirm decision date,35,Competitor also in evaluation; we need stronger ROI case.,,EMEA,Outbound
+L-2025-0010,Greenfield Manufacturing,Services,Closed Won,"$21,292",100%,Ava Chen,2025-05-06,Kickoff meeting,50,Stakeholder change—new VP reviewing vendors.,,EMEA,Inbound
+L-2025-0011,LexCorp Labs,Agency,Closed Lost,"$23,185",18%,Lucas Martin,2025-09-06,,31,,No budget,EMEA,Partner
+L-2025-0012,CloudNine Co,Services,Proposal,"$17,139",62%,Sophia Kim,2025-01-25,Legal review kickoff,37,Needs integration with Salesforce and NetSuite.,,EMEA,Referral
+L-2025-0013,Pioneer Group,SaaS,Discovery,"$20,653",36%,Ethan Brown,2025-02-20,Share questionnaire,25,Stakeholder change—new VP reviewing vendors.,,NA,Referral
+L-2025-0014,greenfield labs,Other,Negotiation,"$22,698",74%,Mia Rodriguez,2025-10-28,Finalize redlines,15,Champion engaged; needs buy-in from Finance.,,NA,Partner
+L-2025-0015,Wayne Holdings,Services,Prospecting,"$18,848",26%,Lucas Martin,2025-02-18,Qualify lead,1,Interested in improving reporting and reducing manual work.,,EMEA,Outbound
+L-2025-0016,Globex Partners,Services,Prospecting,"$9,590",25%,Lucas Martin,2025-07-11,LinkedIn outreach,18,Pricing sensitivity—asked for phased rollout options.,,EMEA,Inbound
+L-2025-0017,Vertex Industries,SaaS,Prospecting,"$2,177",21%,Ava Chen,2025-11-03,Qualify lead,18,Requested security documentation and SOC2 report.,,NA,Partner
+L-2025-0018,Atlas Solutions,Agency,Discovery,"$10,879",29%,Noah Patel,2025-10-16,Map stakeholders,20,Concerned about implementation resources; prefers guided onboarding.,,EMEA,Outbound
+L-2025-0019,Bridgepoint Solutions,Ecom,Proposal,"$23,028",60%,Noah Patel,2025-03-06,,7,Stakeholder change—new VP reviewing vendors.,,APAC,Partner
+L-2025-0020,Keystone Technologies,Services,Proposal,"$14,197",40%,Liam Johnson,2025-05-03,Align on scope,12,Champion engaged; needs buy-in from Finance.,,NA,Partner
+L-2025-0021,Oscorp Holdings,Agency,Closed Won,"$194,123",100%,Ethan Brown,2025-09-09,Implementation planning,70,Needs integration with Salesforce and NetSuite.,,NA,Partner
+L-2025-0022,Initech Systems,Ecom,Closed Lost,"$51,175",5%,Olivia Davis,2025-12-08,Document loss reason,44,Needs integration with Salesforce and NetSuite.,Competitor,EMEA,Inbound
+L-2025-0023,Nimbus Consulting,Ecom,Discovery,"$58,957",45%,Lucas Martin,2025-12-15,Map stakeholders,28,Competitor also in evaluation; we need stronger ROI case.,,EMEA,Partner
+L-2025-0023,Meridian Manufacturing,Other,Proposal,"$6,270",53%,Sophia Kim,2025-03-20,Confirm decision date,39,Trial went well; asked for reference customer call.,,APAC,Outbound
+L-2025-0025,Wayne Commerce,Agency,Closed Lost,"$4,285",7%,Sophia Kim,2025-07-09,Document loss reason,25,Trial went well; asked for reference customer call.,No budget,APAC,Inbound
+L-2025-0026,Soylent Industries,Other,Prospecting,"$213,982",30%,Sophia Kim,2025-04-06,Send one-pager,20,Trial went well; asked for reference customer call.,,EMEA,Referral
+L-2025-0027,Cyberdyne Labs,Other,Prospecting,"$16,927",10%,Ava Chen,2025-06-27,Send one-pager,17,Competitor also in evaluation; we need stronger ROI case.,,NA,Referral
+L-2025-0028,Oscorp Partners,Manufacturing,Discovery,"$21,370",42%,Mia Rodriguez,2025-07-26,Share questionnaire,26,Interested in improving reporting and reducing manual work.,,APAC,Referral
+L-2025-0029,Hooli Industries,SaaS,Discovery,"$17,561",34%,Ava Chen,2025-06-21,Map stakeholders,8,Competitor also in evaluation; we need stronger ROI case.,,NA,Inbound
+L-2025-0030,Wayne Systems,Services,Proposal,"$208,656",59%,Mia Rodriguez,2025-07-09,Review pricing options,29,Champion engaged; needs buy-in from Finance.,,NA,Outbound
+L-2025-0031,Aperture Consulting,Manufacturing,Proposal,"$19,241",57%,Sophia Kim,2025-07-16,Legal review kickoff,33,Pricing sensitivity—asked for phased rollout options.,,EMEA,Partner
+L-2025-0032,NovaWorks Co,Agency,Closed Won,"$158,709",100%,Liam Johnson,2025-03-30,Invoice / PO,73,,,EMEA,Inbound
+L-2025-0033,CloudNine Holdings,Agency,Discovery,"$46,860",36%,Mia Rodriguez,2025-06-07,Book technical deep-dive,28,Competitor also in evaluation; we need stronger ROI case.,,APAC,Outbound
+L-2025-0034,Elevate Consulting,SaaS,Discovery,"$75,855",26%,Ethan Brown,2025-03-07,Book technical deep-dive,17,Champion engaged; needs buy-in from Finance.,,NA,Partner
+L-2025-0035,Wonka Manufacturing,Agency,Negotiation,"$12,163",61%,Ethan Brown,2025-03-10,Finalize redlines,12,Trial went well; asked for reference customer call.,,APAC,Inbound
+L-2025-0036,Fusion Solutions,Services,Discovery,"$190,680",31%,Ava Chen,2025-05-20,Confirm requirements,13,Pricing sensitivity—asked for phased rollout options.,,EMEA,Inbound
+L-2025-0037,Globex AI,Agency,Negotiation,"$23,716",70%,Sophia Kim,2025-04-02,Finalize procurement,55,Stakeholder change—new VP reviewing vendors.,,APAC,Inbound
+L-2025-0038,PolarPeak Co,Agency,Proposal,"$17,956",60%,Ava Chen,2025-12-02,Legal review kickoff,35,,,NA,Referral
+L-2025-0039,Tyrell Holdings,Manufacturing,Discovery,"$11,034",45%,Olivia Davis,2025-01-05,Book technical deep-dive,24,Trial went well; asked for reference customer call.,,APAC,Outbound
+L-2025-0040,Hooli Technologies,Ecom,Proposal,"$361,955",54%,Mia Rodriguez,2025-09-15,Review pricing options,40,Needs integration with Salesforce and NetSuite.,,EMEA,Outbound
+L-2025-0041,CloudNine Co,Manufacturing,Discovery,"$3,078",43%,Liam Johnson,2025-05-10,Map stakeholders,25,Trial went well; asked for reference customer call.,,APAC,Referral
+L-2025-0042,Hooli Systems,Agency,Negotiation,"$18,191",72%,Sophia Kim,2025-09-12,Executive call,35,,,EMEA,Outbound
+L-2025-0043,Elevate Solutions,SaaS,Proposal,"$248,838",51%,Olivia Davis,2025-06-23,Send proposal,27,Pricing sensitivity—asked for phased rollout options.,,EMEA,Outbound
+L-2025-0044,Oscorp Technologies,Services,Closed Lost,"$2,632",10%,Ava Chen,2025-12-08,Add to nurture,18,Stakeholder change—new VP reviewing vendors.,Competitor,EMEA,Partner
+L-2025-0045,Clearwater Holdings,Other,Closed Won,"$76,320",100%,Ethan Brown,2025-02-11,Kickoff meeting,60,Interested in improving reporting and reducing manual work.,,EMEA,Referral
+L-2025-0046,Stonebridge Consulting,SaaS,Closed Won,"$20,504",100%,Ethan Brown,2025-12-11,Implementation planning,55,Requested security documentation and SOC2 report.,,EMEA,Referral
+L-2025-0047,BluePeak Manufacturing,Other,Prospecting,"$21,799",16%,Noah Patel,2025-06-15,Intro email,17,Competitor also in evaluation; we need stronger ROI case.,,EMEA,Referral
+L-2025-0029,Pioneer Manufacturing,SaaS,Negotiation,"$197,589",76%,Sophia Kim,2025-07-07,Finalize procurement,27,Pricing sensitivity—asked for phased rollout options.,,NA,Referral
+L-2025-0049,Oak & Stone Industries,Services,Prospecting,"$50,829",25%,Liam Johnson,2025-08-03,Cold call follow-up,2,Looking to replace legacy tool; timeline depends on budget approval.,,NA,Outbound
+L-2025-0050,Tyrell Co,SaaS,Discovery,"$15,810",33%,Mia Rodriguez,2025-02-07,Map stakeholders,20,Trial went well; asked for reference customer call.,,NA,Partner
+L-2025-0051,Clearwater Logistics,Services,Negotiation,"$4,858",79%,Liam Johnson,2025-03-24,Negotiate terms,56,Trial went well; asked for reference customer call.,,APAC,Outbound
+L-2025-0052,Silverline Consulting,Manufacturing,Prospecting,"$11,977",25%,Olivia Davis,2025-10-27,Intro email,3,,,APAC,Partner
+L-2025-0053,Greenfield Technologies,Manufacturing,Discovery,"$8,118",28%,Noah Patel,2025-07-19,Book technical deep-dive,29,Stakeholder change—new VP reviewing vendors.,,NA,Referral
+L-2025-0054,LexCorp Co,Manufacturing,Closed Won,"$15,774",100%,Ava Chen,2025-01-21,Handoff to CS,17,Stakeholder change—new VP reviewing vendors.,,NA,Outbound
+L-2025-0055,BluePeak Technologies,SaaS,Prospecting,"$86,011",18%,Mia Rodriguez,2025-01-05,Cold call follow-up,3,Concerned about implementation resources; prefers guided onboarding.,,APAC,Referral
+L-2025-0056,Greenfield Consulting,Agency,Discovery,"$20,451",37%,Liam Johnson,2025-08-16,Schedule discovery call,6,Looking to replace legacy tool; timeline depends on budget approval.,,APAC,Referral
+L-2025-0057,Silverline Solutions,Ecom,Discovery,"$2,689",22%,Lucas Martin,2025-12-09,Share questionnaire,26,Concerned about implementation resources; prefers guided onboarding.,,EMEA,Partner
+L-2025-0058,Umbrella Digital,Other,Discovery,"$37,452",39%,Ava Chen,2025-05-15,Schedule discovery call,11,Competitor also in evaluation; we need stronger ROI case.,,NA,Referral
+L-2025-0059,Nimbus Industries,Ecom,Closed Lost,"$54,366",22%,Olivia Davis,2025-09-22,Close file,33,Interested in improving reporting and reducing manual work.,No decision,NA,Partner
+L-2025-0060,Hooli Systems,Ecom,Discovery,"$35,631",35%,Olivia Davis,2025-02-18,Confirm requirements,23,Concerned about implementation resources; prefers guided onboarding.,,EMEA,Partner
+L-2025-0061,Stark Systems,Manufacturing,Discovery,"$161,916",30%,Sophia Kim,2025-09-03,Map stakeholders,6,Competitor also in evaluation; we need stronger ROI case.,,NA,Inbound
+L-2025-0062,Harborview Solutions,SaaS,Negotiation,"$36,768",77%,Ava Chen,2025-07-09,Negotiate terms,43,Looking to replace legacy tool; timeline depends on budget approval.,,NA,Referral
+L-2025-0063,Atlas Commerce,Manufacturing,Proposal,"$63,761",49%,Olivia Davis,2025-07-09,Review pricing options,30,Requested security documentation and SOC2 report.,,APAC,Inbound
+L-2025-0064,Pioneer Partners,Services,Prospecting,"$85,325",18%,Olivia Davis,2025-09-16,Cold call follow-up,1,Concerned about implementation resources; prefers guided onboarding.,,APAC,Referral
+L-2025-0065,Keystone Industries,Agency,Discovery,"$85,461",31%,Ethan Brown,2025-10-09,Schedule discovery call,6,Champion engaged; needs buy-in from Finance.,,EMEA,Outbound
+L-2025-0066,Oscorp Holdings,Ecom,Closed Won,"$24,036",100%,Noah Patel,2025-10-26,Send welcome pack,71,Stakeholder change—new VP reviewing vendors.,,NA,Partner
+L-2025-0067,Lumen Labs,Services,Closed Won,"$23,532",100%,Sophia Kim,2025-01-24,,65,Trial went well; asked for reference customer call.,,EMEA,Outbound
+L-2025-0068,Atlas Commerce,Other,Prospecting,"$17,934",22%,Mia Rodriguez,2025-09-06,,20,Competitor also in evaluation; we need stronger ROI case.,,NA,Outbound
+L-2025-0069,Blue Yonder Group,Manufacturing,Discovery,"$80,837",39%,Sophia Kim,2025-07-29,Confirm requirements,14,Needs integration with Salesforce and NetSuite.,,APAC,Referral
+L-2025-0070,Catalyst Co,SaaS,Proposal,"$39,531",63%,Mia Rodriguez,2025-10-12,Align on scope,14,Looking to replace legacy tool; timeline depends on budget approval.,,NA,Referral
+L-2025-0071,Clearwater Technologies,Services,Prospecting,"$181,353",15%,Sophia Kim,2025-09-05,LinkedIn outreach,3,Trial went well; asked for reference customer call.,,APAC,Outbound
+L-2025-0072,PolarPeak Technologies,Services,Proposal,"$6,924",41%,Liam Johnson,2025-03-21,Legal review kickoff,26,Interested in improving reporting and reducing manual work.,,APAC,Partner
+L-2025-0073,Atlas Technologies,Other,Proposal,"$5,246",47%,Liam Johnson,2025-10-19,Legal review kickoff,29,Competitor also in evaluation; we need stronger ROI case.,,APAC,Partner
+L-2025-0074,NovaWorks AI,Manufacturing,Discovery,"$10,513",43%,Noah Patel,2025-10-22,Book technical deep-dive,24,Competitor also in evaluation; we need stronger ROI case.,,EMEA,Outbound
+L-2025-0032,Tyrell Manufacturing,SaaS,Prospecting,"$52,010",10%,Lucas Martin,2025-12-01,Send one-pager,3,Interested in improving reporting and reducing manual work.,,NA,Partner
+L-2025-0076,Elevate Media,Manufacturing,Discovery,"$64,595",42%,Mia Rodriguez,2025-06-17,Map stakeholders,29,Interested in improving reporting and reducing manual work.,,NA,Referral
+L-2025-0077,Cyberdyne Group,Other,Negotiation,"$14,954",84%,Sophia Kim,2025-09-09,Finalize procurement,31,Trial went well; asked for reference customer call.,,EMEA,Referral
+L-2025-0078,cloudnine technologies,Other,Closed Won,"$9,760",100%,Olivia Davis,2025-05-07,Invoice / PO,65,Pricing sensitivity—asked for phased rollout options.,,EMEA,Partner
+L-2025-0079,Meridian Media,Ecom,Proposal,"$9,018",43%,Sophia Kim,2025-10-15,Send proposal,17,Concerned about implementation resources; prefers guided onboarding.,,NA,Partner
+L-2025-0080,Globex Consulting,Manufacturing,Discovery,"$20,835",35%,Ethan Brown,2025-04-09,Confirm requirements,27,Needs integration with Salesforce and NetSuite.,,NA,Outbound
+L-2025-0081,Oak & Stone Partners,Ecom,Prospecting,"$85,740",18%,Mia Rodriguez,2025-01-25,Cold call follow-up,17,Champion engaged; needs buy-in from Finance.,,EMEA,Outbound
+L-2025-0082,BrightPath Technologies,Other,Proposal,"$83,295",64%,Sophia Kim,2025-06-27,Review pricing options,40,Requested security documentation and SOC2 report.,,NA,Inbound
+L-2025-0083,Silverline Digital,Services,Negotiation,"$74,343",83%,Sophia Kim,2025-01-31,,54,Concerned about implementation resources; prefers guided onboarding.,,EMEA,Partner
+L-2025-0084,Hooli Group,Services,Proposal,"$58,539",44%,Lucas Martin,2025-12-05,Review pricing options,14,Trial went well; asked for reference customer call.,,APAC,Referral
+L-2025-0085,Meridian Manufacturing,Ecom,Proposal,"$20,257",59%,Sophia Kim,2025-12-02,Confirm decision date,27,Looking to replace legacy tool; timeline depends on budget approval.,,NA,Partner
+L-2025-0086,MONARCH INDUSTRIES,Other,Proposal,"$558,636",62%,Olivia Davis,2025-06-07,Legal review kickoff,36,Trial went well; asked for reference customer call.,,NA,Referral
+L-2025-0087,Vertex Digital,SaaS,Proposal,"$87,921",56%,Liam Johnson,2025-02-28,Confirm decision date,30,Champion engaged; needs buy-in from Finance.,,EMEA,Partner
+L-2025-0088,Vertex Commerce,Other,Proposal,"$32,691",54%,Ethan Brown,2025-09-10,Confirm decision date,25,Requested security documentation and SOC2 report.,,NA,Inbound
+L-2025-0089,Cyberdyne Industries,Ecom,Negotiation,"$66,913",78%,Olivia Davis,2025-10-24,Finalize redlines,14,Champion engaged; needs buy-in from Finance.,,NA,Inbound
+L-2025-0090,Vertex Solutions,Ecom,Proposal,"$148,045",54%,Lucas Martin,2025-05-30,Confirm decision date,9,Trial went well; asked for reference customer call.,,EMEA,Partner
+L-2025-0091,Pioneer Labs,SaaS,Proposal,"$82,136",61%,Mia Rodriguez,2025-09-04,Review pricing options,15,Trial went well; asked for reference customer call.,,NA,Outbound
+L-2025-0092,Monarch Co,Manufacturing,Closed Won,"$10,319",100%,Noah Patel,2025-07-04,Implementation planning,37,Stakeholder change—new VP reviewing vendors.,,NA,Outbound
+L-2025-0093,CloudNine Consulting,SaaS,Proposal,"$19,868",47%,Sophia Kim,2025-11-27,Review pricing options,11,Trial went well; asked for reference customer call.,,APAC,Referral
+L-2025-0094,Lumen Media,Ecom,Proposal,"$59,899",41%,Olivia Davis,2025-10-05,Align on scope,31,Needs integration with Salesforce and NetSuite.,,EMEA,Partner
+L-2025-0095,Oak & Stone Digital,Ecom,Prospecting,"$86,544",23%,Liam Johnson,2025-06-14,Intro email,12,Competitor also in evaluation; we need stronger ROI case.,,APAC,Inbound
+L-2025-0096,Contoso Manufacturing,Services,Closed Won,"$63,965",100%,Liam Johnson,2025-05-15,Kickoff meeting,71,,,NA,Inbound
+L-2025-0097,UMBRELLA AI,Other,Discovery,"$19,491",32%,Liam Johnson,2025-11-16,Confirm requirements,29,Trial went well; asked for reference customer call.,,APAC,Referral
+L-2025-0098,Vandelay Commerce,SaaS,Discovery,"$55,262",35%,Ethan Brown,2025-04-07,Map stakeholders,8,Pricing sensitivity—asked for phased rollout options.,,EMEA,Inbound
+L-2025-0099,CloudNine AI,Manufacturing,Prospecting,"$22,568",23%,Olivia Davis,2025-01-05,Qualify lead,4,Interested in improving reporting and reducing manual work.,,APAC,Referral
+L-2025-0100,Globex Logistics,Other,Proposal,"$15,593",47%,Noah Patel,2025-08-07,Confirm decision date,38,Requested security documentation and SOC2 report.,,APAC,Partner
+L-2025-0101,Meridian Systems,Services,Discovery,"$4,654",37%,Liam Johnson,2025-05-25,Share questionnaire,27,Needs integration with Salesforce and NetSuite.,,APAC,Outbound
+L-2025-0102,Stark Co,Other,Closed Won,"$101,026",100%,Olivia Davis,2025-11-23,Handoff to CS,20,Interested in improving reporting and reducing manual work.,,EMEA,Outbound
+L-2025-0103,Keystone Labs,Manufacturing,Prospecting,"$21,761",23%,Lucas Martin,2025-10-09,Intro email,16,Competitor also in evaluation; we need stronger ROI case.,,APAC,Partner
+L-2025-0104,LexCorp Digital,Manufacturing,Closed Lost,"$46,977",17%,Ethan Brown,2025-10-14,,24,Needs integration with Salesforce and NetSuite.,Competitor,APAC,Inbound
+L-2025-0105,Keystone Industries,Agency,Closed Won,"$212,672",100%,Liam Johnson,2025-02-28,Kickoff meeting,54,Competitor also in evaluation; we need stronger ROI case.,,NA,Inbound
+L-2025-0106,Stark Industries,Manufacturing,Prospecting,"$11,131",14%,Noah Patel,2025-02-28,Send one-pager,19,Champion engaged; needs buy-in from Finance.,,NA,Referral
+L-2025-0107,Wayne Digital,Ecom,Closed Won,"$18,903",100%,Sophia Kim,2025-09-27,Kickoff meeting,53,Concerned about implementation resources; prefers guided onboarding.,,APAC,Partner
+L-2025-0108,Stark Media,Services,Discovery,"$72,796",44%,Olivia Davis,2025-06-26,Confirm requirements,23,Concerned about implementation resources; prefers guided onboarding.,,APAC,Referral
+L-2025-0109,Quantum Logistics,Ecom,Prospecting,"$1,057",17%,Olivia Davis,2025-11-29,Send one-pager,10,Needs integration with Salesforce and NetSuite.,,NA,Outbound
+L-2025-0110,Ironclad Logistics,SaaS,Discovery,"$1,439",37%,Liam Johnson,2025-12-04,Share questionnaire,18,Concerned about implementation resources; prefers guided onboarding.,,APAC,Partner
+L-2025-0111,Contoso Media,Agency,Negotiation,"$22,798",68%,Ethan Brown,2025-04-13,Security review,14,Champion engaged; needs buy-in from Finance.,,APAC,Partner
+L-2025-0112,Redwood Solutions,Manufacturing,Discovery,"$232,171",29%,Mia Rodriguez,2025-01-22,Schedule discovery call,8,Champion engaged; needs buy-in from Finance.,,NA,Partner
+L-2025-0113,Redwood Labs,SaaS,Proposal,"$19,028",47%,Liam Johnson,2025-03-12,Send proposal,21,Needs integration with Salesforce and NetSuite.,,APAC,Inbound
+L-2025-0114,Clearwater Co,Manufacturing,Negotiation,"$9,007",77%,Sophia Kim,2025-05-16,,59,Champion engaged; needs buy-in from Finance.,,NA,Partner
+L-2025-0089,Redwood Commerce,Services,Closed Lost,"$15,971",13%,Lucas Martin,2025-11-21,Request feedback,67,Stakeholder change—new VP reviewing vendors.,Price,NA,Outbound
+L-2025-0116,Monarch Logistics,SaaS,Negotiation,"$62,674",84%,Ethan Brown,2025-02-23,Finalize redlines,45,Trial went well; asked for reference customer call.,,EMEA,Partner
+L-2025-0117,Cyberdyne Solutions,Agency,Prospecting,"$30,099",26%,Lucas Martin,2025-05-16,Intro email,12,Needs integration with Salesforce and NetSuite.,,EMEA,Partner
+L-2025-0118,Stonebridge Systems,Services,Closed Won,"$235,793",100%,Lucas Martin,2025-09-18,Invoice / PO,46,Pricing sensitivity—asked for phased rollout options.,,EMEA,Outbound
+L-2025-0119,Wayne AI,SaaS,Proposal,"$5,362",54%,Sophia Kim,2025-05-23,Legal review kickoff,15,Interested in improving reporting and reducing manual work.,,EMEA,Referral
+L-2025-0120,Summit Consulting,Services,Proposal,"$53,662",49%,Olivia Davis,2025-03-11,Confirm decision date,13,Pricing sensitivity—asked for phased rollout options.,,APAC,Partner
+L-2025-0121,Ironclad Logistics,Agency,Proposal,"$13,609",57%,Liam Johnson,2025-02-26,Align on scope,39,Stakeholder change—new VP reviewing vendors.,,EMEA,Outbound
+L-2025-0122,LexCorp Industries,Other,Closed Lost,"$11,014",15%,Ava Chen,2025-07-22,Close file,22,,No budget,APAC,Referral
+L-2025-0123,Ironclad AI,Other,Prospecting,"$4,753",22%,Olivia Davis,2025-03-28,Qualify lead,17,Needs integration with Salesforce and NetSuite.,,NA,Partner
+L-2025-0124,Ironclad Media,Manufacturing,Closed Lost,"$87,267",12%,Noah Patel,2025-11-18,Request feedback,19,Concerned about implementation resources; prefers guided onboarding.,No budget,NA,Partner
+L-2025-0125,Atlas Labs,Ecom,Discovery,"$17,652",23%,Lucas Martin,2025-09-22,Confirm requirements,18,Competitor also in evaluation; we need stronger ROI case.,,NA,Outbound
+L-2025-0126,Soylent Solutions,Ecom,Prospecting,"$196,225",12%,Noah Patel,2025-06-24,Qualify lead,5,Interested in improving reporting and reducing manual work.,,APAC,Outbound
+L-2025-0127,Summit Co,Services,Discovery,"$35,859",38%,Lucas Martin,2025-02-28,Confirm requirements,21,Pricing sensitivity—asked for phased rollout options.,,NA,Referral
+L-2025-0128,Initech Labs,Other,Proposal,"$42,367",58%,Ava Chen,2025-08-02,Send proposal,20,Needs integration with Salesforce and NetSuite.,,NA,Referral
+L-2025-0129,Globex Systems,Agency,Prospecting,"$158,481",16%,Lucas Martin,2025-05-10,Qualify lead,6,Champion engaged; needs buy-in from Finance.,,NA,Partner
+L-2025-0130,Wonka Logistics,Ecom,Discovery,"$132,660",41%,Olivia Davis,2025-01-14,Map stakeholders,6,Competitor also in evaluation; we need stronger ROI case.,,EMEA,Referral
+L-2025-0131,Stonebridge Co,Agency,Prospecting,"$56,236",18%,Lucas Martin,2025-07-25,Qualify lead,8,Concerned about implementation resources; prefers guided onboarding.,,NA,Outbound
+L-2025-0132,Aperture Manufacturing,Agency,Prospecting,"$187,088",16%,Ava Chen,2025-02-01,LinkedIn outreach,7,Competitor also in evaluation; we need stronger ROI case.,,NA,Partner
+L-2025-0133,Wonka Group,Ecom,Discovery,"$226,752",36%,Ethan Brown,2025-01-16,Share questionnaire,12,Concerned about implementation resources; prefers guided onboarding.,,EMEA,Outbound
+L-2025-0134,Nimbus Co,Other,Negotiation,"$14,199",72%,Ava Chen,2025-08-06,Negotiate terms,48,Requested security documentation and SOC2 report.,,EMEA,Inbound
+L-2025-0135,PolarPeak Media,Agency,Discovery,"$24,071",29%,Ava Chen,2025-03-31,Book technical deep-dive,13,Concerned about implementation resources; prefers guided onboarding.,,APAC,Outbound
+L-2025-0136,Quantum Group,Other,Proposal,"$88,707",48%,Liam Johnson,2025-10-12,Align on scope,36,Requested security documentation and SOC2 report.,,NA,Referral
+L-2025-0137,Oscorp Industries,Manufacturing,Discovery,"$3,336",41%,Noah Patel,2025-12-08,Book technical deep-dive,13,Champion engaged; needs buy-in from Finance.,,NA,Partner
+L-2025-0138,LexCorp Labs,Other,Closed Lost,"$15,365",21%,Noah Patel,2025-09-28,Re-engage next quarter,44,Needs integration with Salesforce and NetSuite.,No decision,NA,Inbound
+L-2025-0139,vandelay logistics,SaaS,Proposal,"$18,314",56%,Noah Patel,2025-07-28,Legal review kickoff,39,Requested security documentation and SOC2 report.,,APAC,Referral
+L-2025-0140,Pied Piper Holdings,Manufacturing,Prospecting,"$9,445",24%,Lucas Martin,2025-06-15,Cold call follow-up,5,Requested security documentation and SOC2 report.,,APAC,Partner
+L-2025-0141,Summit Co,Other,Proposal,"$11,948",63%,Sophia Kim,2025-01-04,Align on scope,27,,,NA,Referral
+L-2025-0142,Keystone Manufacturing,Services,Prospecting,"$33,703",19%,Liam Johnson,2025-05-29,Cold call follow-up,14,Stakeholder change—new VP reviewing vendors.,,EMEA,Outbound
+L-2025-0143,Beacon Labs,Ecom,Proposal,"$37,675",56%,Mia Rodriguez,2025-01-05,Legal review kickoff,15,Needs integration with Salesforce and NetSuite.,,EMEA,Outbound
+L-2025-0144,Atlas Partners,SaaS,Discovery,"$62,112",21%,Olivia Davis,2025-03-06,Share questionnaire,21,Pricing sensitivity—asked for phased rollout options.,,NA,Outbound
+L-2025-0145,Oak & Stone Co,Other,Negotiation,"$114,175",70%,Sophia Kim,2025-01-25,Executive call,17,Pricing sensitivity—asked for phased rollout options.,,EMEA,Inbound
+L-2025-0146,Vertex Media,Agency,Prospecting,"$28,512",25%,Sophia Kim,2025-04-21,Cold call follow-up,1,Champion engaged; needs buy-in from Finance.,,NA,Referral
+L-2025-0147,Stonebridge Systems,Ecom,Prospecting,"$116,146",21%,Noah Patel,2025-06-08,Qualify lead,3,Concerned about implementation resources; prefers guided onboarding.,,APAC,Referral
+L-2025-0148,Orbit Solutions,Agency,Proposal,"$134,692",51%,Noah Patel,2025-11-30,Confirm decision date,31,Champion engaged; needs buy-in from Finance.,,EMEA,Inbound
+L-2025-0149,Contoso Co,Services,Proposal,"$14,580",47%,Olivia Davis,2025-03-10,Review pricing options,23,Interested in improving reporting and reducing manual work.,,APAC,Referral
+L-2025-0150,Atlas Group,Services,Proposal,"$12,843",47%,Ava Chen,2025-03-04,Legal review kickoff,31,Champion engaged; needs buy-in from Finance.,,APAC,Partner
+L-2025-0151,Quantum Digital,Services,Closed Lost,"$2,719",15%,Mia Rodriguez,2025-12-02,Add to nurture,80,Stakeholder change—new VP reviewing vendors.,Competitor,APAC,Inbound
+L-2025-0152,Elevate Partners,Other,Proposal,"$300,738",47%,Liam Johnson,2025-10-03,Legal review kickoff,13,Looking to replace legacy tool; timeline depends on budget approval.,,EMEA,Inbound
+L-2025-0153,Beacon Media,Ecom,Proposal,"$19,121",55%,Olivia Davis,2025-03-17,Align on scope,9,Pricing sensitivity—asked for phased rollout options.,,APAC,Partner
+L-2025-0154,Monarch Media,SaaS,Prospecting,"$128,128",23%,Ethan Brown,2025-07-16,LinkedIn outreach,3,Needs integration with Salesforce and NetSuite.,,NA,Referral
+L-2025-0155,Summit Systems,SaaS,Discovery,"$53,220",39%,Olivia Davis,2025-06-19,Confirm requirements,14,Pricing sensitivity—asked for phased rollout options.,,NA,Inbound
+L-2025-0156,Quantum Solutions,Agency,Proposal,"$219,462",46%,Ethan Brown,2025-10-03,Review pricing options,26,Concerned about implementation resources; prefers guided onboarding.,,APAC,Inbound
+L-2025-0157,Soylent Industries,Agency,Discovery,"$8,401",26%,Olivia Davis,2025-12-10,,22,Looking to replace legacy tool; timeline depends on budget approval.,,APAC,Outbound
+L-2025-0158,Bridgepoint Group,Ecom,Closed Lost,"$177,011",18%,Olivia Davis,2025-11-19,Request feedback,51,Looking to replace legacy tool; timeline depends on budget approval.,No budget,NA,Inbound
+L-2025-0159,Crescent Logistics,Agency,Negotiation,"$241,874",77%,Liam Johnson,2025-01-30,Finalize redlines,11,Stakeholder change—new VP reviewing vendors.,,EMEA,Referral
+L-2025-0160,Catalyst Systems,Services,Prospecting,"$2,666",18%,Sophia Kim,2025-04-30,Send one-pager,19,Trial went well; asked for reference customer call.,,APAC,Outbound
+L-2025-0161,Meridian Group,SaaS,Proposal,"$21,734",48%,Sophia Kim,2025-10-18,Align on scope,33,Competitor also in evaluation; we need stronger ROI case.,,EMEA,Partner
+L-2025-0162,Silverline Holdings,Manufacturing,Closed Won,"$4,305",100%,Mia Rodriguez,2025-06-22,Handoff to CS,40,Trial went well; asked for reference customer call.,,EMEA,Referral
+L-2025-0163,novaworks holdings,SaaS,Negotiation,"$14,910",64%,Ethan Brown,2025-02-16,Executive call,43,Requested security documentation and SOC2 report.,,EMEA,Outbound
+L-2025-0164,Wayne Media,Other,Discovery,"$3,574",26%,Ava Chen,2025-05-13,Schedule discovery call,27,Interested in improving reporting and reducing manual work.,,APAC,Referral
+L-2025-0165,CloudNine Systems,Ecom,Proposal,"$205,662",48%,Mia Rodriguez,2025-02-10,Send proposal,21,Looking to replace legacy tool; timeline depends on budget approval.,,EMEA,Referral
+L-2025-0166,Cyberdyne Labs,Manufacturing,Discovery,"$130,587",44%,Ava Chen,2025-07-19,Map stakeholders,19,Concerned about implementation resources; prefers guided onboarding.,,EMEA,Referral
+L-2025-0167,Beacon Systems,Agency,Closed Won,"$49,089",100%,Ethan Brown,2025-04-04,Send welcome pack,45,Needs integration with Salesforce and NetSuite.,,EMEA,Outbound
+L-2025-0168,Synergy Systems,Manufacturing,Closed Won,"$402,469",100%,Olivia Davis,2025-11-24,Send welcome pack,44,Competitor also in evaluation; we need stronger ROI case.,,EMEA,Referral
+L-2025-0169,Cyberdyne Group,SaaS,Discovery,"$44,040",32%,Sophia Kim,2025-04-05,Map stakeholders,29,Trial went well; asked for reference customer call.,,APAC,Outbound
+L-2025-0170,Stonebridge Manufacturing,Ecom,Proposal,"$17,673",44%,Lucas Martin,2025-09-09,Review pricing options,33,Trial went well; asked for reference customer call.,,EMEA,Outbound
+L-2025-0171,Vandelay AI,Services,Proposal,"$24,439",58%,Noah Patel,2025-05-17,Confirm decision date,30,Concerned about implementation resources; prefers guided onboarding.,,EMEA,Referral
+L-2025-0172,Greenfield Technologies,Other,Prospecting,"$15,819",11%,Liam Johnson,2025-06-07,Cold call follow-up,16,Champion engaged; needs buy-in from Finance.,,APAC,Partner
+L-2025-0173,Elevate Consulting,Services,Proposal,"$11,540",60%,Lucas Martin,2025-04-13,,22,Stakeholder change—new VP reviewing vendors.,,NA,Outbound
+L-2025-0174,CATALYST CO,Other,Proposal,"$77,840",42%,Sophia Kim,2025-09-23,Send proposal,27,Champion engaged; needs buy-in from Finance.,,EMEA,Outbound
+L-2025-0175,Vandelay Holdings,Ecom,Closed Won,"$24,851",100%,Ethan Brown,2025-07-04,Handoff to CS,48,Interested in improving reporting and reducing manual work.,,NA,Outbound
+L-2025-0176,Evergreen Systems,Other,Negotiation,"$83,681",67%,Ava Chen,2025-09-17,Finalize redlines,14,Stakeholder change—new VP reviewing vendors.,,APAC,Outbound
+L-2025-0177,Wayne Systems,Services,Proposal,"$2,790",63%,Olivia Davis,2025-01-10,Send proposal,27,Champion engaged; needs buy-in from Finance.,,NA,Outbound
+L-2025-0178,BrightPath Digital,Manufacturing,Prospecting,"$21,321",24%,Lucas Martin,2025-01-14,,4,Pricing sensitivity—asked for phased rollout options.,,APAC,Referral
+L-2025-0179,Evergreen Labs,Services,Negotiation,"$46,409",70%,Mia Rodriguez,2025-07-26,Executive call,27,,,NA,Referral
+L-2025-0180,CloudNine Digital,Other,Closed Lost,"$120,328",20%,Ethan Brown,2025-03-10,,25,Looking to replace legacy tool; timeline depends on budget approval.,Price,NA,Outbound
