@@ -4,19 +4,19 @@ Follow this checklist to set up and publish the Excel Copilot Mastery demo pack:
 
 ### Checklist
 1. **Add Datasets**:
-   - [ ] Add the following CSV files to the `/Datasets/` directory:
+   - [x] Add the following CSV files to the `/datasets/` directory:
      - `Finance_Data.csv`
      - `Sales_Pipeline.csv`
      - `Marketing_Campaigns.csv`
      - `HR_Onboarding.csv`
 2. **Add Workbook**:
-   - [ ] Add the `Excel-Copilot-Demo-Pack.xlsx` workbook to `/Workbooks/`.
+   - [x] Add the `Excel-Copilot-Demo-Pack.xlsx` workbook to `/workbooks/`.
 3. **Add Templates**:
-   - [ ] Add the MVP template files to `/Templates/MVP-30/`.
+   - [x] Add the MVP template files to `/templates/mvp-30/`.
 4. **Add Prompt Cards**:
-   - [ ] Export the prompt cards to PDF and save to `/Prompt-Cards/`.
+   - [x] Export the prompt cards to PDF and save to `/prompt-cards/`.
 5. **Update README**:
-   - [ ] Update the README file to link to the appropriate download locations and files.
+   - [x] Update the README file to link to the appropriate download locations and files.
 6. **Enable GitHub Pages**:
    - [ ] Navigate to `Settings → Pages`.
    - [ ] Under "Source", select `Deploy from branch`.
@@ -25,7 +25,7 @@ Follow this checklist to set up and publish the Excel Copilot Mastery demo pack:
    - [ ] Create a release with tag `v1.0`.
    - [ ] Optionally attach the demo pack files (workbook, datasets, templates, etc.).
 8. **Test Pages Links**:
-   - [ ] Open the GitHub Pages site and validate all download links.
+   - [x] Open the GitHub Pages site and validate all download links.
 
 ---
 
