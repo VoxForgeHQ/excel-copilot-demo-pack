@@ -1,0 +1,43 @@
+# Hosting Checklist
+
+Follow this checklist to set up and publish the Excel Copilot Mastery demo pack:
+
+### Checklist
+1. **Add Datasets**:
+   - [ ] Add the following CSV files to the `/Datasets/` directory:
+     - `Finance_Data.csv`
+     - `Sales_Pipeline.csv`
+     - `Marketing_Campaigns.csv`
+     - `HR_Onboarding.csv`
+2. **Add Workbook**:
+   - [ ] Add the `Excel-Copilot-Demo-Pack.xlsx` workbook to `/Workbooks/`.
+3. **Add Templates**:
+   - [ ] Add the MVP template files to `/Templates/MVP-30/`.
+4. **Add Prompt Cards**:
+   - [ ] Export the prompt cards to PDF and save to `/Prompt-Cards/`.
+5. **Update README**:
+   - [ ] Update the README file to link to the appropriate download locations and files.
+6. **Enable GitHub Pages**:
+   - [ ] Navigate to `Settings → Pages`.
+   - [ ] Under "Source", select `Deploy from branch`.
+   - [ ] Choose the `main` branch and set the folder to `/site`.
+7. **Tag a Release**:
+   - [ ] Create a release with tag `v1.0`.
+   - [ ] Optionally attach the demo pack files (workbook, datasets, templates, etc.).
+8. **Test Pages Links**:
+   - [ ] Open the GitHub Pages site and validate all download links.
+
+---
+
+### Release Naming Standard
+- Releases should follow semantic versioning (e.g., `v1.0.0`, `v1.2.3`).
+- Include a short description (e.g., `Initial release - Demo pack with CSVs and templates`).
+- Attach any related files for convenient download (e.g., workbook, templates, datasets).
+
+### How to Report an Issue
+If you encounter any problems or have suggestions, please open an issue in the repository:
+1. Go to the [Issues tab](../../issues).
+2. Click the "New Issue" button.
+3. Provide a clear title and description, including steps to reproduce the issue.
+
+Thank you for contributing to Excel Copilot Mastery!
