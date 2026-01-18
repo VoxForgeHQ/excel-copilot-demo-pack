@@ -1,0 +1,68 @@
+name: Normalize folder names to lowercase
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  normalize:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - name: Normalize folders to lowercase
+        run: |
+          set -euo pipefail
+          git config user.name "voxforgehq-bot"
+          git config user.email "hello@voxforgehq.com"
+
+          move_dir() {
+            SRC="$1"
+            DST="$2"
+            if [ -d "$SRC" ]; then
+              if [ -d "$DST" ]; then
+                echo "Both $SRC and $DST exist — moving contents from $SRC to $DST"
+                shopt -s dotglob || true
+                for f in "$SRC"/*; do
+                  [ -e "$f" ] || continue
+                  git mv "$f" "$DST/" || ( mv "$f" "$DST/" && git add "$DST/$(basename "$f")" )
+                done
+                if [ "$(ls -A "$SRC" 2>/dev/null || true)" = "" ]; then
+                  git rm -r "$SRC" || true
+                fi
+              else
+                echo "Renaming $SRC -> $DST"
+                TEMP="${DST}_tmp_$$"
+                git mv "$SRC" "$TEMP" || true
+                git mv "$TEMP" "$DST" || git mv "$SRC" "$DST"
+              fi
+            else
+              echo "$SRC does not exist — skipping"
+            fi
+          }
+
+          move_dir "Downloads" "downloads"
+          move_dir "Datasets" "datasets"
+          move_dir "Workbooks" "workbooks"
+          move_dir "Templates" "templates"
+          move_dir "Prompt-Cards" "prompt-cards"
+          move_dir "Errata" "errata"
+          move_dir "Site" "site"
+
+          mkdir -p datasets workbooks templates/mvp-30 prompt-cards
+          printf '%s\n' '# placeholder to ensure the datasets folder exists' > datasets/.gitkeep
+          printf '%s\n' '# placeholder to ensure the workbooks folder exists' > workbooks/.gitkeep
+          printf '%s\n' '# placeholder to ensure the template folder exists' > templates/mvp-30/.gitkeep
+          printf '%s\n' '# placeholder to ensure the prompt-cards folder exists' > prompt-cards/.gitkeep
+
+          git add -A || true
+          git commit -m "Normalize folder names to lowercase and add placeholders" || echo "No changes to commit"
+          git push origin HEAD:main
+
+      - name: Done
+        run: echo "Normalization complete"
