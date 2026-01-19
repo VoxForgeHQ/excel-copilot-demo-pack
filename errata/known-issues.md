@@ -1,4 +1,3 @@
-```markdown
 # Known issues & practical fixes (Common Copilot problems)
 
 This document lists common issues users encounter when using Copilot with Excel and practical fixes or workarounds.
@@ -76,4 +75,3 @@ This document lists common issues users encounter when using Copilot with Excel 
 If you encounter an issue not listed here:
 - Open an issue in this repository with a reproducible example (redacted if needed).
 - Include Excel version, Copilot availability, and a small sample workbook if possible.
-```
