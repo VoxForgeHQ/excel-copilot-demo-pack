@@ -1,4 +1,3 @@
-```markdown
 # Changelog
 
 All notable changes to companion downloads are documented here.
@@ -20,4 +19,3 @@ All notable changes to companion downloads are documented here.
 - Improve README and documentation.
 
 (Additional versions will be added to this file as the companion materials evolve.)
-```
