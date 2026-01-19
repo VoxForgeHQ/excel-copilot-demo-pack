@@ -11,7 +11,7 @@ This repository provides companion downloads for the book "Excel Copilot Mastery
 - `/errata/` — Changelog and known issues
 
 ## Download Options
-1. Visit the GitHub Pages site (https://voxforgehq.github.io/) or the repository Downloads hub at `/downloads/`.
+1. Visit the GitHub Pages site (https://voxforgehq.github.io/excel-copilot-demo-pack/) or the repository Downloads hub at `/downloads/`.
 2. Click the item you want (links point to file paths such as `/workbooks/Excel-Copilot-Demo-Pack.xlsx` or `/datasets/Finance_Data.csv`).
 3. Or clone or download the repository and open files locally (e.g., open the workbook in Excel).
 
