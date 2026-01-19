@@ -1,4 +1,29 @@
 Campaign_ID,Campaign_Name,Channel,Start_Date,End_Date,Budget,Spent,Impressions,Clicks,Conversions,Lead_Cost,Status
+MKT-2501,Spring Product Launch,Email,2025-03-01,2025-03-31,$15000,$12500,85000,3400,125,$100.00,Active
+MKT-2502,Social Media Awareness,Social Media,2025-01-15,2025-02-15,$8000,$7800,250000,8500,285,$27.37,Completed
+MKT-2503,Q1 Webinar Series,Webinar,2025-01-10,2025-03-30,$12000,$10200,12000,1800,95,$107.37,Active
+MKT-2504,Google Ads - Product A,Search,2025-02-01,2025-04-30,$20000,$15600,180000,5400,210,$74.29,Active
+MKT-2505,LinkedIn Lead Gen,Social Media,2025-02-15,2025-03-15,$10000,$9500,95000,2850,165,$57.58,Active
+MKT-2506,Content Marketing Hub,Content,2025-01-01,2025-12-31,$25000,$6250,145000,7250,380,$16.45,Active
+MKT-2507,Trade Show Presence,Event,2025-03-20,2025-03-22,$35000,$32000,8000,450,58,$551.72,Completed
+MKT-2508,Email Nurture Campaign,Email,2025-02-01,2025-05-31,$6000,$3800,42000,2520,142,$26.76,Active
+MKT-2509,YouTube Video Series,Video,2025-01-20,2025-04-20,$18000,$14200,320000,12800,425,$33.41,Active
+MKT-2510,Partner Co-Marketing,Partnership,2025-02-10,2025-03-10,$12000,$11500,65000,3250,178,$64.61,Completed
+MKT-2511,Retargeting Campaign,Display,2025-03-01,2025-05-31,$9000,$5400,195000,4875,215,$25.12,Active
+MKT-2512,Industry Report Launch,Content,2025-01-15,2025-02-28,$8500,$8200,55000,2750,138,$59.42,Completed
+MKT-2513,Mobile App Promotion,Mobile,2025-02-20,2025-04-30,$14000,$9800,280000,8400,312,$31.41,Active
+MKT-2514,Customer Referral Program,Referral,2025-01-05,2025-06-30,$7000,$3200,0,0,92,$34.78,Active
+MKT-2515,Podcast Sponsorship,Audio,2025-02-01,2025-03-31,$11000,$10800,75000,1875,68,$158.82,Active
+MKT-2516,Holiday Sale Campaign,Email,2025-01-20,2025-02-05,$5500,$5300,38000,2280,156,$33.97,Completed
+MKT-2517,LinkedIn Thought Leadership,Social Media,2025-03-01,2025-05-31,$9500,$4750,82000,2870,145,$32.76,Active
+MKT-2518,Industry Conference,Event,2025-04-15,2025-04-17,$28000,$2000,0,0,8,$250.00,Planned
+MKT-2519,SEO Optimization,Organic,2025-01-01,2025-12-31,$22000,$8250,295000,14750,682,$12.10,Active
+MKT-2520,Direct Mail Campaign,Direct Mail,2025-02-15,2025-03-15,$13500,$12800,15000,420,45,$284.44,Completed
+MKT-2521,Influencer Partnership,Social Media,2025-03-10,2025-04-10,$16000,$11200,425000,17000,518,$21.62,Active
+MKT-2522,Product Demo Webinar,Webinar,2025-03-05,2025-03-05,$4500,$4200,5500,825,72,$58.33,Completed
+MKT-2523,Facebook Ads Campaign,Social Media,2025-02-01,2025-03-31,$12000,$10500,340000,10200,365,$28.77,Active
+MKT-2524,Case Study Publication,Content,2025-01-25,2025-02-25,$5000,$4800,28000,1680,89,$53.93,Completed
+MKT-2525,Twitter Engagement,Social Media,2025-03-01,2025-04-30,$6500,$3900,185000,5550,198,$19.70,Active
 MKT-2501,Spring Product Launch,Email,2026-03-01,2026-03-31,15000,12500,85000,3400,125,100.00,Active
 MKT-2502,Social Media Awareness,Social Media,2026-01-15,2026-02-15,8000,7800,250000,8500,285,27.37,Completed
 MKT-2503,Q1 Webinar Series,Webinar,2026-01-10,2026-03-30,12000,10200,12000,1800,95,107.37,Active

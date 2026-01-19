@@ -40,4 +40,3 @@ License and permitted use
 
 Contact and contribution
 - Non-sensitive questions and contributions: open an issue or submit a pull request.
-- If you'd like me to make wording/accessibility changes across other docs, I can prepare and apply them.
