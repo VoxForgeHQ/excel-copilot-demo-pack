@@ -57,7 +57,7 @@ The Excel Copilot Mastery companion demo pack is **content-complete and ready fo
    - Navigate to Settings → Pages
    - Select "Deploy from branch"
    - Choose `main` branch, `/site` folder
-   - **Impact:** Makes the companion site publicly accessible at https://voxforgehq.github.io/
+   - **Impact:** Makes the companion site publicly accessible at https://voxforgehq.github.io/excel-copilot-demo-pack/
    - **Status:** Requires admin permissions (cannot be completed by contributors)
 
 2. **Tag a Release** (Publishing Task)
