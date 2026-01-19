@@ -29,3 +29,34 @@ OPP-10027,Maverick Enterprises,Jason King,Proposal,98000,2026-03-27,65%,Finance,
 OPP-10028,Optimum Systems,Donna Wright,Closed Won,115000,2026-02-22,100%,Technology,North America,Marketing Campaign
 OPP-10029,Pinnacle Group,Kevin Lopez,Qualification,72000,2026-04-15,35%,Consulting,Asia Pacific,Website
 OPP-10030,Quantum Solutions,Carol Hill,Negotiation,142000,2026-03-20,85%,Software,North America,Referral
+Opportunity_ID,Company_Name,Contact_Name,Stage,Value,Close_Date,Probability,Industry,Region,Lead_Source
+OPP-10001,Acme Corporation,John Smith,Qualification,$45000.00,2026-04-15,25%,Technology,North America,Website
+OPP-10002,Global Tech Solutions,Sarah Johnson,Proposal,$120000.00,2026-03-30,60%,Technology,Europe,Referral
+OPP-10003,Innovation Labs,Michael Chen,Negotiation,$85000.00,2026-03-10,80%,Software,Asia Pacific,Conference
+OPP-10004,Summit Enterprises,Emily Davis,Closed Won,$150000.00,2025-02-28,100%,Finance,North America,Cold Call
+OPP-10005,Horizon Industries,David Wilson,Prospecting,$35000.00,2026-05-20,10%,Manufacturing,Europe,Marketing Campaign
+OPP-10006,NextGen Systems,Lisa Anderson,Qualification,$72000.00,2026-04-05,30%,Technology,North America,Partner
+OPP-10007,Pioneer Solutions,Robert Taylor,Proposal,$95000.00,2026-03-25,65%,Consulting,North America,Website
+OPP-10008,Quantum Dynamics,Jennifer Martinez,Negotiation,$180000.00,2026-03-15,85%,Technology,Asia Pacific,Referral
+OPP-10009,Stellar Ventures,William Brown,Closed Lost,$60000.00,2025-02-15,0%,Retail,Europe,Cold Call
+OPP-10010,Apex Industries,Patricia Garcia,Qualification,$55000.00,2026-04-18,25%,Healthcare,North America,Marketing Campaign
+OPP-10011,Fusion Corp,James Rodriguez,Prospecting,$42000.00,2026-05-30,15%,Energy,North America,Website
+OPP-10012,Velocity Partners,Mary Wilson,Proposal,$110000.00,2026-03-28,70%,Finance,Europe,Referral
+OPP-10013,Precision Tech,Thomas Anderson,Qualification,$68000.00,2026-04-12,35%,Technology,North America,Conference
+OPP-10014,Dynamic Solutions,Barbara Thomas,Negotiation,$125000.00,2026-03-08,75%,Software,Asia Pacific,Partner
+OPP-10015,Catalyst Group,Christopher Jackson,Closed Won,$95000.00,2025-02-20,100%,Consulting,North America,Cold Call
+OPP-10016,Nexus Innovations,Linda White,Prospecting,$48000.00,2026-05-15,20%,Manufacturing,Europe,Marketing Campaign
+OPP-10017,Synergy Systems,Daniel Harris,Proposal,$88000.00,2026-04-02,55%,Technology,North America,Website
+OPP-10018,Vanguard Enterprises,Jessica Martin,Qualification,$77000.00,2026-04-08,40%,Healthcare,Europe,Referral
+OPP-10019,Zenith Corporation,Matthew Thompson,Negotiation,$160000.00,2026-03-12,90%,Finance,North America,Conference
+OPP-10020,Atlas Solutions,Nancy Clark,Closed Won,$105000.00,2025-02-25,100%,Technology,Asia Pacific,Partner
+OPP-10021,Cornerstone Tech,Paul Lewis,Prospecting,$38000.00,2026-06-01,10%,Retail,Europe,Cold Call
+OPP-10022,Elevate Partners,Karen Lee,Qualification,$65000.00,2026-04-20,30%,Consulting,North America,Marketing Campaign
+OPP-10023,Frontier Systems,Steven Walker,Proposal,$92000.00,2026-03-22,60%,Software,North America,Website
+OPP-10024,Genesis Industries,Betty Hall,Negotiation,$135000.00,2026-03-18,80%,Technology,Asia Pacific,Referral
+OPP-10025,Horizon Tech,Edward Allen,Qualification,$58000.00,2026-04-10,25%,Manufacturing,Europe,Conference
+OPP-10026,Infinity Solutions,Sandra Young,Prospecting,$45000.00,2026-05-25,15%,Healthcare,North America,Partner
+OPP-10027,Maverick Enterprises,Jason King,Proposal,$98000.00,2026-03-27,65%,Finance,Europe,Cold Call
+OPP-10028,Optimum Systems,Donna Wright,Closed Won,$115000.00,2025-02-22,100%,Technology,North America,Marketing Campaign
+OPP-10029,Pinnacle Group,Kevin Lopez,Qualification,$72000.00,2026-04-15,35%,Consulting,Asia Pacific,Website
+OPP-10030,Quantum Solutions,Carol Hill,Negotiation,$142000.00,2026-03-20,85%,Software,North America,Referral
