@@ -47,9 +47,17 @@ await app.register(analyticsRoutes, { prefix: "/analytics" });
 app.setErrorHandler((error, request, reply) => {
   app.log.error({ err: error, requestId: request.id }, "Request error");
   
-  reply.status(error.statusCode ?? 500).send({
-    error: error.message,
-    statusCode: error.statusCode ?? 500,
+  const statusCode = error.statusCode ?? 500;
+  const isProduction = process.env.NODE_ENV === "production";
+  
+  // In production, don't expose internal error details
+  const errorMessage = isProduction && statusCode >= 500
+    ? "Internal server error"
+    : error.message;
+  
+  reply.status(statusCode).send({
+    error: errorMessage,
+    statusCode,
     requestId: request.id,
   });
 });

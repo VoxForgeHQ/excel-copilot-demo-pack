@@ -254,8 +254,18 @@ async function realPublish(
   }
 
   // Platform-specific APIs would go here
-  // For now, fall back to mock
-  logger.warn({ platform }, "No real connector available, using mock");
+  // In development, fall back to mock; in production, require explicit configuration
+  if (process.env.NODE_ENV === "production") {
+    logger.error({ platform }, "No publishing connector configured for production");
+    return {
+      success: false,
+      response: { 
+        error: "No publishing connector configured. Set ZAPIER_WEBHOOK_URL, MAKE_WEBHOOK_URL, or platform-specific API credentials." 
+      },
+    };
+  }
+
+  logger.warn({ platform }, "No real connector available, using mock (development only)");
   return mockPublish(platform, payload);
 }
 

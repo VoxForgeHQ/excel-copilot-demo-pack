@@ -14,6 +14,9 @@ interface ChunkData {
   tags: string[];
 }
 
+// Configuration constants
+const CHUNK_SIZE = parseInt(process.env.CHUNK_SIZE ?? "500", 10);
+
 // Initialize Notion client
 const notion = new Client({
   auth: process.env.NOTION_TOKEN,
@@ -27,8 +30,21 @@ export const vaultSyncWorker = new Worker<VaultSyncJobData>(
   QUEUE_NAMES.VAULT_SYNC,
   async (job: Job<VaultSyncJobData>) => {
     const { databaseIds, force } = job.data;
-    const targetDatabases = databaseIds ?? 
-      (process.env.NOTION_DATABASE_IDS?.split(",").map((id) => id.trim()) ?? []);
+    // Parse and validate database IDs
+    const envDatabaseIds = process.env.NOTION_DATABASE_IDS?.split(",")
+      .map((id) => id.trim())
+      .filter((id) => id.length > 0) ?? [];
+    const targetDatabases = databaseIds?.filter((id) => id.trim().length > 0) ?? envDatabaseIds;
+
+    if (targetDatabases.length === 0) {
+      logger.warn("No database IDs configured for vault sync");
+      await prisma.vaultSyncStatus.upsert({
+        where: { id: "main" },
+        update: { status: "failed", lastError: "No database IDs configured" },
+        create: { id: "main", status: "failed", lastError: "No database IDs configured" },
+      });
+      return { sourcesCount: 0, chunksCount: 0, error: "No database IDs configured" };
+    }
 
     logger.info({ databaseIds: targetDatabases }, "Starting vault sync");
 
@@ -111,7 +127,7 @@ export const vaultSyncWorker = new Worker<VaultSyncJobData>(
           });
 
           // Create new chunks
-          const chunks = chunkText(rawText, 500); // ~500 char chunks
+          const chunks = chunkText(rawText, CHUNK_SIZE);
           const tags = extractTags(metadata);
 
           for (const chunkText of chunks) {
