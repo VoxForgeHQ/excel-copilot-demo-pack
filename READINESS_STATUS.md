@@ -55,8 +55,8 @@ The Excel Copilot Mastery companion demo pack is **content-complete and ready fo
 
 1. **Enable GitHub Pages** (Repository Settings Task)
    - Navigate to Settings → Pages
-   - Select "Deploy from branch"
-   - Choose `main` branch, `/site` folder
+   - Under "Build and deployment", select "GitHub Actions" as the source
+   - The `static-gh-pages.yml` workflow will automatically deploy the site on pushes to `main`
    - **Impact:** Makes the companion site publicly accessible at https://voxforgehq.github.io/excel-copilot-demo-pack/
    - **Status:** Requires admin permissions (cannot be completed by contributors)
 
@@ -110,8 +110,8 @@ The Excel Copilot Mastery companion demo pack is **content-complete and ready fo
 
 1. **Enable GitHub Pages** (5 minutes)
    - Go to repository Settings → Pages
-   - Select `main` branch and `/site` folder
-   - Save and wait for deployment
+   - Under "Build and deployment", select "GitHub Actions" as the source
+   - The `static-gh-pages.yml` workflow will automatically deploy on each push to `main`
 
 2. **Test GitHub Pages Site** (5 minutes)
    - Visit https://voxforgehq.github.io/excel-copilot-demo-pack/
