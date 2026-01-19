@@ -29,13 +29,13 @@ Date,Category,Description,Amount,Account,Status
 2025-02-24,Revenue,Product Sales,15700.00,Operating Income,Completed
 2025-02-26,Expense,Office Supplies,380.50,General Admin,Completed
 2025-02-28,Revenue,Subscription Revenue,7200.00,Recurring Revenue,Completed
-2025-03-01,Revenue,Product Sales,17800.00,Operating Income,Pending
-2025-03-03,Expense,Training Programs,2500.00,Human Resources,Pending
-2025-03-05,Revenue,Consulting Services,9800.00,Operating Income,Pending
-2025-03-07,Expense,Software Licenses,2600.00,IT Infrastructure,Pending
-2025-03-09,Revenue,Product Sales,14900.00,Operating Income,Pending
-2025-03-11,Expense,Marketing Campaign,3800.00,Marketing Budget,Pending
-2025-03-13,Revenue,Subscription Revenue,7800.00,Recurring Revenue,Pending
-2025-03-15,Expense,Office Maintenance,950.00,Facilities,Pending
-2025-03-17,Revenue,Product Sales,16500.00,Operating Income,Pending
-2025-03-18,Expense,Employee Salaries,45000.00,Payroll,Pending
+2025-03-01,Revenue,Product Sales,17800.00,Operating Income,Completed
+2025-03-03,Expense,Training Programs,2500.00,Human Resources,Completed
+2025-03-05,Revenue,Consulting Services,9800.00,Operating Income,Completed
+2025-03-07,Expense,Software Licenses,2600.00,IT Infrastructure,Completed
+2025-03-09,Revenue,Product Sales,14900.00,Operating Income,Completed
+2025-03-11,Expense,Marketing Campaign,3800.00,Marketing Budget,Completed
+2025-03-13,Revenue,Subscription Revenue,7800.00,Recurring Revenue,Completed
+2025-03-15,Expense,Office Maintenance,950.00,Facilities,Completed
+2025-03-17,Revenue,Product Sales,16500.00,Operating Income,Completed
+2025-03-18,Expense,Employee Salaries,45000.00,Payroll,Completed
