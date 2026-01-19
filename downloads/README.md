@@ -7,9 +7,6 @@ This folder contains the web pages for the downloads hub. Files linked from this
 - Templates: /templates/mvp-30/mvp-30.zip
 - Prompt cards: /prompt-cards/prompt-cards.pdf
 
-Placeholders
-- At first some files may be placeholders (zips or PDFs with "placeholder" text). Replace them with final versions when ready.
-
 If a download link 404s:
 - Confirm the file exists at the path above.
 - Confirm GitHub Pages is configured and the branch is published.
