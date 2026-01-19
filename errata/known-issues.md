@@ -1,4 +1,3 @@
-# Known issues & practical fixes (Common Copilot problems)
 # Known Issues & Practical Fixes (Common Copilot Problems)
 
 This document lists common issues users encounter when using Copilot with Excel and practical fixes or workarounds.
