@@ -17,13 +17,15 @@ Follow this checklist to set up and publish the Excel Copilot Mastery demo pack:
    - [x] Export the prompt cards to PDF and save to `/prompt-cards/`.
 5. **Update README**:
    - [x] Update the README file to link to the appropriate download locations and files.
-6. **Enable GitHub Pages**:
+6. **Enable GitHub Pages** (Repository admin task):
    - [ ] Navigate to `Settings → Pages`.
    - [ ] Under "Source", select `Deploy from branch`.
    - [ ] Choose the `main` branch and set the folder to `/site`.
-7. **Tag a Release**:
+   - **Note:** This task requires repository admin access and will be completed during final publishing.
+7. **Tag a Release** (Repository admin task):
    - [ ] Create a release with tag `v1.0`.
    - [ ] Optionally attach the demo pack files (workbook, datasets, templates, etc.).
+   - **Note:** This task will be completed by repository owner during final publishing.
 8. **Test Pages Links**:
    - [x] Open the GitHub Pages site and validate all download links.
 
