@@ -1,0 +1,61 @@
+Employee_ID,First_Name,Last_Name,Department,Position,Start_Date,Onboarding_Status,IT_Setup,HR_Paperwork,Training_Complete,Manager,Office_Location
+EMP-3001,Michael,Johnson,Engineering,Software Engineer,2025-01-15,Completed,Yes,Yes,Yes,Sarah Chen,San Francisco
+EMP-3002,Emily,Williams,Marketing,Marketing Manager,2025-01-20,Completed,Yes,Yes,Yes,David Park,New York
+EMP-3003,James,Brown,Sales,Sales Representative,2025-01-22,Completed,Yes,Yes,Yes,Lisa Anderson,Chicago
+EMP-3004,Sarah,Davis,Finance,Financial Analyst,2025-02-01,Completed,Yes,Yes,Yes,Robert Kim,New York
+EMP-3005,David,Martinez,Engineering,DevOps Engineer,2025-02-05,In Progress,Yes,Yes,No,Sarah Chen,San Francisco
+EMP-3006,Jennifer,Garcia,Human Resources,HR Coordinator,2025-02-10,Completed,Yes,Yes,Yes,Michelle Roberts,New York
+EMP-3007,Robert,Rodriguez,Product,Product Manager,2025-02-12,In Progress,Yes,Yes,No,Tom Wilson,San Francisco
+EMP-3008,Lisa,Wilson,Customer Success,Customer Success Manager,2025-02-15,In Progress,Yes,No,No,Jennifer Smith,Austin
+EMP-3009,Thomas,Anderson,Engineering,Senior Software Engineer,2025-02-18,Completed,Yes,Yes,Yes,Sarah Chen,San Francisco
+EMP-3010,Mary,Thomas,Marketing,Content Strategist,2025-02-20,In Progress,Yes,Yes,No,David Park,Remote
+EMP-3011,William,Taylor,Sales,Account Executive,2025-02-22,Not Started,No,No,No,Lisa Anderson,Chicago
+EMP-3012,Patricia,Moore,Finance,Accounting Manager,2025-03-01,Scheduled,No,No,No,Robert Kim,New York
+EMP-3013,Christopher,Jackson,Engineering,Frontend Developer,2025-03-01,Scheduled,No,No,No,Sarah Chen,San Francisco
+EMP-3014,Barbara,White,Operations,Operations Analyst,2025-03-05,Scheduled,No,No,No,Mark Thompson,Austin
+EMP-3015,Daniel,Harris,Engineering,Data Scientist,2025-03-08,Scheduled,No,No,No,Sarah Chen,San Francisco
+EMP-3016,Nancy,Martin,Marketing,Social Media Manager,2025-03-10,Scheduled,No,No,No,David Park,Remote
+EMP-3017,Matthew,Thompson,Sales,Sales Development Rep,2025-03-12,Scheduled,No,No,No,Lisa Anderson,Chicago
+EMP-3018,Elizabeth,Garcia,Customer Success,Support Specialist,2025-03-15,Scheduled,No,No,No,Jennifer Smith,Austin
+EMP-3019,Joseph,Martinez,Engineering,Backend Developer,2025-03-15,Scheduled,No,No,No,Sarah Chen,San Francisco
+EMP-3020,Susan,Robinson,Product,UX Designer,2025-03-18,Scheduled,No,No,No,Tom Wilson,San Francisco
+EMP-3021,Charles,Clark,Finance,Financial Controller,2025-03-20,Scheduled,No,No,No,Robert Kim,New York
+EMP-3022,Jessica,Rodriguez,Marketing,Marketing Analyst,2025-03-22,Scheduled,No,No,No,David Park,New York
+EMP-3023,Andrew,Lewis,Sales,Senior Account Executive,2025-03-25,Scheduled,No,No,No,Lisa Anderson,Chicago
+EMP-3024,Karen,Lee,Engineering,QA Engineer,2025-03-27,Scheduled,No,No,No,Sarah Chen,San Francisco
+EMP-3025,Steven,Walker,Operations,Operations Manager,2025-04-01,Scheduled,No,No,No,Mark Thompson,Austin
+EMP-3026,Betty,Hall,Human Resources,Talent Acquisition Specialist,2025-04-03,Scheduled,No,No,No,Michelle Roberts,New York
+EMP-3027,Edward,Allen,Engineering,Systems Architect,2025-04-05,Scheduled,No,No,No,Sarah Chen,San Francisco
+EMP-3028,Helen,Young,Customer Success,Customer Success Director,2025-04-08,Scheduled,No,No,No,Jennifer Smith,Austin
+EMP-3029,Jason,King,Product,Associate Product Manager,2025-04-10,Scheduled,No,No,No,Tom Wilson,Remote
+EMP-3030,Donna,Wright,Marketing,Brand Manager,2025-04-12,Scheduled,No,No,No,David Park,New York
+EMP-3001,Michael,Johnson,Engineering,Software Engineer,2026-01-15,Completed,Yes,Yes,Yes,Sarah Chen,San Francisco
+EMP-3002,Emily,Williams,Marketing,Marketing Manager,2026-01-20,Completed,Yes,Yes,Yes,David Park,New York
+EMP-3003,James,Brown,Sales,Sales Representative,2026-01-22,Completed,Yes,Yes,Yes,Lisa Anderson,Chicago
+EMP-3004,Sarah,Davis,Finance,Financial Analyst,2026-02-01,Completed,Yes,Yes,Yes,Robert Kim,New York
+EMP-3005,David,Martinez,Engineering,DevOps Engineer,2026-02-05,In Progress,Yes,Yes,No,Sarah Chen,San Francisco
+EMP-3006,Jennifer,Garcia,Human Resources,HR Coordinator,2026-02-10,Completed,Yes,Yes,Yes,Michelle Roberts,New York
+EMP-3007,Robert,Rodriguez,Product,Product Manager,2026-02-12,In Progress,Yes,Yes,No,Tom Wilson,San Francisco
+EMP-3008,Lisa,Wilson,Customer Success,Customer Success Manager,2026-02-15,In Progress,Yes,No,No,Jennifer Smith,Austin
+EMP-3009,Thomas,Anderson,Engineering,Senior Software Engineer,2026-02-18,Completed,Yes,Yes,Yes,Sarah Chen,San Francisco
+EMP-3010,Mary,Thomas,Marketing,Content Strategist,2026-02-20,In Progress,Yes,Yes,No,David Park,Remote
+EMP-3011,William,Taylor,Sales,Account Executive,2026-02-22,Not Started,No,No,No,Lisa Anderson,Chicago
+EMP-3012,Patricia,Moore,Finance,Accounting Manager,2026-03-01,Scheduled,No,No,No,Robert Kim,New York
+EMP-3013,Christopher,Jackson,Engineering,Frontend Developer,2026-03-01,Scheduled,No,No,No,Sarah Chen,San Francisco
+EMP-3014,Barbara,White,Operations,Operations Analyst,2026-03-05,Scheduled,No,No,No,Mark Thompson,Austin
+EMP-3015,Daniel,Harris,Engineering,Data Scientist,2026-03-08,Scheduled,No,No,No,Sarah Chen,San Francisco
+EMP-3016,Nancy,Martin,Marketing,Social Media Manager,2026-03-10,Scheduled,No,No,No,David Park,Remote
+EMP-3017,Matthew,Thompson,Sales,Sales Development Rep,2026-03-12,Scheduled,No,No,No,Lisa Anderson,Chicago
+EMP-3018,Elizabeth,Garcia,Customer Success,Support Specialist,2026-03-15,Scheduled,No,No,No,Jennifer Smith,Austin
+EMP-3019,Joseph,Martinez,Engineering,Backend Developer,2026-03-15,Scheduled,No,No,No,Sarah Chen,San Francisco
+EMP-3020,Susan,Robinson,Product,UX Designer,2026-03-18,Scheduled,No,No,No,Tom Wilson,San Francisco
+EMP-3021,Charles,Clark,Finance,Financial Controller,2026-03-20,Scheduled,No,No,No,Robert Kim,New York
+EMP-3022,Jessica,Rodriguez,Marketing,Marketing Analyst,2026-03-22,Scheduled,No,No,No,David Park,New York
+EMP-3023,Andrew,Lewis,Sales,Senior Account Executive,2026-03-25,Scheduled,No,No,No,Lisa Anderson,Chicago
+EMP-3024,Karen,Lee,Engineering,QA Engineer,2026-03-27,Scheduled,No,No,No,Sarah Chen,San Francisco
+EMP-3025,Steven,Walker,Operations,Operations Manager,2026-04-01,Scheduled,No,No,No,Mark Thompson,Austin
+EMP-3026,Betty,Hall,Human Resources,Talent Acquisition Specialist,2026-04-03,Scheduled,No,No,No,Michelle Roberts,New York
+EMP-3027,Edward,Allen,Engineering,Systems Architect,2026-04-05,Scheduled,No,No,No,Sarah Chen,San Francisco
+EMP-3028,Helen,Young,Customer Success,Customer Success Director,2026-04-08,Scheduled,No,No,No,Jennifer Smith,Austin
+EMP-3029,Jason,King,Product,Associate Product Manager,2026-04-10,Scheduled,No,No,No,Tom Wilson,Remote
+EMP-3030,Donna,Wright,Marketing,Brand Manager,2026-04-12,Scheduled,No,No,No,David Park,New York
