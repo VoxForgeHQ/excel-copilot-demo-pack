@@ -39,3 +39,10 @@ Date,Category,Description,Amount,Account,Status
 2025-03-15,Expense,Office Maintenance,950.00,Facilities,Completed
 2025-03-17,Revenue,Product Sales,16500.00,Operating Income,Completed
 2025-03-18,Expense,Employee Salaries,45000.00,Payroll,Completed
+2025-03-20,Revenue,Consulting Services,10200.00,Operating Income,Completed
+2025-03-22,Expense,Professional Services,2900.00,Legal & Compliance,Completed
+2025-03-24,Revenue,Product Sales,15300.00,Operating Income,Completed
+2025-03-26,Expense,Cloud Services,1950.00,IT Infrastructure,Completed
+2025-03-27,Revenue,Subscription Revenue,7600.00,Recurring Revenue,Completed
+2025-03-29,Expense,Office Supplies,420.00,General Admin,Completed
+2025-03-31,Revenue,Product Sales,18200.00,Operating Income,Completed
