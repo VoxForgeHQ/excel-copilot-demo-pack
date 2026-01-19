@@ -1,0 +1,339 @@
+// This is your Prisma schema file for the Viral Post Factory
+// https://pris.ly/d/prisma-schema
+
+generator client {
+  provider        = "prisma-client-js"
+  previewFeatures = ["postgresqlExtensions"]
+}
+
+datasource db {
+  provider   = "postgresql"
+  url        = env("DATABASE_URL")
+  directUrl  = env("DIRECT_DATABASE_URL")
+  extensions = [vector]
+}
+
+// ====================
+// BRAND & VOICE
+// ====================
+model Brand {
+  id            String   @id @default(cuid())
+  name          String
+  tone          String[] // e.g., ["professional", "friendly", "witty"]
+  language      String   @default("en")
+  bannedWords   String[] // words to avoid
+  voiceExamples Json     // example snippets of brand voice
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+
+  offers        Offer[]
+  contentBatches ContentBatch[]
+
+  @@map("brands")
+}
+
+// ====================
+// OFFER
+// ====================
+model Offer {
+  id           String   @id @default(cuid())
+  brandId      String
+  name         String
+  url          String   // destination URL
+  valueProp    String   // main value proposition
+  audience     String   // target audience description
+  ctaDefaults  Json     // default CTA options { soft: "...", hard: "..." }
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+
+  brand         Brand          @relation(fields: [brandId], references: [id], onDelete: Cascade)
+  contentBatches ContentBatch[]
+
+  @@map("offers")
+}
+
+// ====================
+// TOPIC PILLARS
+// ====================
+model Topic {
+  id        String   @id @default(cuid())
+  name      String
+  pillars   String[] // content pillars
+  keywords  String[] // SEO/trend keywords
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  contentBatches ContentBatch[]
+
+  @@map("topics")
+}
+
+// ====================
+// NOTION RAG SOURCES
+// ====================
+model NotionSource {
+  id           String   @id @default(cuid())
+  pageId       String   @unique // Notion page ID
+  title        String
+  url          String   // Notion page URL
+  rawText      String   // extracted clean text
+  metadata     Json     // tags, pillars, products, etc.
+  lastSyncedAt DateTime
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+
+  chunks VaultChunk[]
+
+  @@map("notion_sources")
+}
+
+model VaultChunk {
+  id        String                       @id @default(cuid())
+  sourceId  String
+  chunkText String
+  embedding Unsupported("vector(1536)")? // OpenAI embedding dimension
+  tags      String[]
+  createdAt DateTime                     @default(now())
+
+  source NotionSource @relation(fields: [sourceId], references: [id], onDelete: Cascade)
+
+  @@index([sourceId])
+  @@map("vault_chunks")
+}
+
+// ====================
+// TREND CARDS
+// ====================
+model TrendCard {
+  id        String    @id @default(cuid())
+  platform  Platform
+  phrase    String    // trend phrase/keyword
+  angle     String?   // suggested angle
+  source    String?   // where this trend was found
+  evidence  String?   // proof/evidence of trend
+  expiresAt DateTime? // when trend becomes stale
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+
+  @@map("trend_cards")
+}
+
+// ====================
+// CONTENT BATCH
+// ====================
+model ContentBatch {
+  id          String      @id @default(cuid())
+  brandId     String
+  offerId     String
+  topicId     String?
+  name        String
+  prompt      String      // user's original prompt/topic
+  platforms   Platform[]  // target platforms
+  status      BatchStatus @default(DRAFT)
+  createdAt   DateTime    @default(now())
+  updatedAt   DateTime    @updatedAt
+
+  brand  Brand  @relation(fields: [brandId], references: [id], onDelete: Cascade)
+  offer  Offer  @relation(fields: [offerId], references: [id], onDelete: Cascade)
+  topic  Topic? @relation(fields: [topicId], references: [id], onDelete: SetNull)
+  assets Asset[]
+
+  @@map("content_batches")
+}
+
+enum BatchStatus {
+  DRAFT
+  GENERATING
+  SCORING
+  REVIEW
+  SCHEDULED
+  PUBLISHED
+  FAILED
+}
+
+// ====================
+// ASSET
+// ====================
+model Asset {
+  id            String      @id @default(cuid())
+  batchId       String
+  platform      Platform
+  assetType     AssetType
+  payload       Json        // platform-specific content payload
+  score         Json?       // quality scorecard
+  citations     Json?       // Notion sources used
+  status        AssetStatus @default(DRAFT)
+  version       Int         @default(1)
+  regenAttempts Int         @default(0)
+  createdAt     DateTime    @default(now())
+  updatedAt     DateTime    @updatedAt
+
+  batch         ContentBatch   @relation(fields: [batchId], references: [id], onDelete: Cascade)
+  variants      VariantGroup[]
+  schedules     Schedule[]
+  posts         Post[]
+
+  @@index([batchId])
+  @@index([platform])
+  @@map("assets")
+}
+
+enum Platform {
+  PINTEREST
+  INSTAGRAM
+  TIKTOK
+  YOUTUBE
+  LINKEDIN
+}
+
+enum AssetType {
+  PIN
+  CAROUSEL
+  REEL_SCRIPT
+  CAPTION
+  TIKTOK_SCRIPT
+  SHORTS_SCRIPT
+  LINKEDIN_POST
+}
+
+enum AssetStatus {
+  DRAFT
+  SCORING
+  LOW_SCORE
+  REGENERATING
+  APPROVED
+  SCHEDULED
+  PUBLISHED
+  FAILED
+}
+
+// ====================
+// A/B VARIANT GROUPS
+// ====================
+model VariantGroup {
+  id             String  @id @default(cuid())
+  assetId        String
+  variantKey     String  // e.g., "hook_a", "hook_b", "cta_soft", "cta_hard"
+  variantPayload Json    // variant-specific content
+  score          Json?   // variant-specific score
+  isWinner       Boolean @default(false)
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+
+  asset Asset @relation(fields: [assetId], references: [id], onDelete: Cascade)
+
+  @@index([assetId])
+  @@map("variant_groups")
+}
+
+// ====================
+// SCHEDULE
+// ====================
+model Schedule {
+  id           String         @id @default(cuid())
+  assetId      String
+  scheduledAt  DateTime
+  timezone     String         @default("America/New_York")
+  status       ScheduleStatus @default(PENDING)
+  publishMode  PublishMode    @default(MANUAL)
+  createdAt    DateTime       @default(now())
+  updatedAt    DateTime       @updatedAt
+
+  asset Asset @relation(fields: [assetId], references: [id], onDelete: Cascade)
+
+  @@index([scheduledAt])
+  @@map("schedules")
+}
+
+enum ScheduleStatus {
+  PENDING
+  QUEUED
+  PUBLISHED
+  FAILED
+  CANCELLED
+}
+
+enum PublishMode {
+  MANUAL      // requires manual approval
+  AUTO        // auto-publish if risk gate passes
+  MOCK        // mock publish for testing
+}
+
+// ====================
+// POST (Published content)
+// ====================
+model Post {
+  id           String   @id @default(cuid())
+  assetId      String
+  platform     Platform
+  externalId   String?  // platform's post ID
+  publishedAt  DateTime
+  publishMode  PublishMode
+  response     Json?    // API response from platform
+  createdAt    DateTime @default(now())
+
+  asset           Asset            @relation(fields: [assetId], references: [id], onDelete: Cascade)
+  metricSnapshots MetricSnapshot[]
+
+  @@index([platform])
+  @@map("posts")
+}
+
+// ====================
+// METRIC SNAPSHOTS
+// ====================
+model MetricSnapshot {
+  id          String   @id @default(cuid())
+  postId      String
+  snapshotAt  DateTime @default(now())
+  impressions Int?
+  reach       Int?
+  engagement  Int?
+  saves       Int?
+  shares      Int?
+  clicks      Int?
+  comments    Int?
+  likes       Int?
+  views       Int?
+  watchTime   Float?   // average watch time in seconds
+  rawData     Json?    // full platform metrics
+
+  post Post @relation(fields: [postId], references: [id], onDelete: Cascade)
+
+  @@index([postId])
+  @@index([snapshotAt])
+  @@map("metric_snapshots")
+}
+
+// ====================
+// WINNING PATTERNS
+// ====================
+model WinningPattern {
+  id          String   @id @default(cuid())
+  platform    Platform
+  patternType String   // e.g., "hook", "cta", "structure"
+  details     Json     // pattern specifics
+  confidence  Float    // 0-1 confidence score
+  sampleSize  Int      // number of posts this is based on
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@index([platform])
+  @@map("winning_patterns")
+}
+
+// ====================
+// VAULT SYNC STATUS
+// ====================
+model VaultSyncStatus {
+  id            String   @id @default(cuid())
+  status        String   // "syncing", "success", "failed"
+  sourcesCount  Int      @default(0)
+  chunksCount   Int      @default(0)
+  lastSyncAt    DateTime?
+  lastError     String?
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+
+  @@map("vault_sync_status")
+}
