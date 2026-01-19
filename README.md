@@ -41,3 +41,5 @@ This repository provides companion downloads for the book "Excel Copilot Mastery
 ## Contact and Contribution
 - Non-sensitive questions and contributions: open an issue or submit a pull request.
 - For feedback or suggestions: please use the issue tracker.
+Contact and contribution
+- Non-sensitive questions and contributions: open an issue or submit a pull request.

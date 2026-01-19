@@ -1,0 +1,1 @@
+Updated hosting checklist with recent adjustments.

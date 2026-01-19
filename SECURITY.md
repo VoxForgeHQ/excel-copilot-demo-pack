@@ -7,6 +7,7 @@
 ## Reporting Security Issues
 - If you discover a security vulnerability related to the demo pack content, please open a private issue or email the repository owner (contact details available in README).
 - Do not post sensitive exploit details in a public issue.
+- If you discover a security vulnerability related to the demo pack content, please open a private issue or email the repository owner (add contact details in README or here). Do not post sensitive exploit details in a public issue.
 
 ## Safe Handling Guidance
 - When testing with real data, use a copy of the workbook and remove PII.
